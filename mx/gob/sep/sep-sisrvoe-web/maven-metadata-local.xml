@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>mx.gob.sep</groupId>
+  <artifactId>sep-sisrvoe-web</artifactId>
+  <versioning>
+    <release>1.0.0-SNAPSHOT-web</release>
+    <versions>
+      <version>1.0.0-SNAPSHOT-web</version>
+    </versions>
+    <lastUpdated>20250629214403</lastUpdated>
+  </versioning>
+</metadata>

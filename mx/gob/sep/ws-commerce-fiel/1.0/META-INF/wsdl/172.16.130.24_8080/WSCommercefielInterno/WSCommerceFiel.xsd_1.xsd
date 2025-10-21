@@ -1,0 +1,868 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is JAX-WS RI 2.2-hudson-740-. --><xs:schema xmlns:tns="http://ws.fielnet.net/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://ws.fielnet.net/">
+
+<xs:element name="Authentication" nillable="true" type="tns:autenticacion" />
+
+<xs:element name="BatchGetReference" type="tns:BatchGetReference" />
+
+<xs:element name="BatchGetReferenceExt" type="tns:BatchGetReferenceExt" />
+
+<xs:element name="BatchGetReferenceExtResponse" type="tns:BatchGetReferenceExtResponse" />
+
+<xs:element name="BatchGetReferenceResponse" type="tns:BatchGetReferenceResponse" />
+
+<xs:element name="BatchSaveSignerToken" type="tns:BatchSaveSignerToken" />
+
+<xs:element name="BatchSaveSignerTokenResponse" type="tns:BatchSaveSignerTokenResponse" />
+
+<xs:element name="BatchSignBuffer" type="tns:BatchSignBuffer" />
+
+<xs:element name="BatchSignBufferResponse" type="tns:BatchSignBufferResponse" />
+
+<xs:element name="DecodeCertificate" type="tns:DecodeCertificate" />
+
+<xs:element name="DecodeCertificateResponse" type="tns:DecodeCertificateResponse" />
+
+<xs:element name="DigestData" type="tns:DigestData" />
+
+<xs:element name="DigestDataResponse" type="tns:DigestDataResponse" />
+
+<xs:element name="DigestExtended" type="tns:DigestExtended" />
+
+<xs:element name="DigestExtendedResponse" type="tns:DigestExtendedResponse" />
+
+<xs:element name="FromXmlToChain" type="tns:FromXmlToChain" />
+
+<xs:element name="FromXmlToChainResponse" type="tns:FromXmlToChainResponse" />
+
+<xs:element name="Pkcs1Items" type="tns:Pkcs1Items" />
+
+<xs:element name="Pkcs1ItemsResponse" type="tns:Pkcs1ItemsResponse" />
+
+<xs:element name="ReportPkcs1" type="tns:ReportPkcs1" />
+
+<xs:element name="ReportPkcs1Extended" type="tns:ReportPkcs1Extended" />
+
+<xs:element name="ReportPkcs1ExtendedResponse" type="tns:ReportPkcs1ExtendedResponse" />
+
+<xs:element name="ReportPkcs1Response" type="tns:ReportPkcs1Response" />
+
+<xs:element name="RequestConfig" type="tns:RequestConfig" />
+
+<xs:element name="RequestConfigResponse" type="tns:RequestConfigResponse" />
+
+<xs:element name="RequestNom151" type="tns:RequestNom151" />
+
+<xs:element name="RequestNom151Response" type="tns:RequestNom151Response" />
+
+<xs:element name="RequestOcsp" type="tns:RequestOcsp" />
+
+<xs:element name="RequestOcspResponse" type="tns:RequestOcspResponse" />
+
+<xs:element name="RequestTimeStamping" type="tns:RequestTimeStamping" />
+
+<xs:element name="RequestTimeStampingChain" type="tns:RequestTimeStampingChain" />
+
+<xs:element name="RequestTimeStampingChainResponse" type="tns:RequestTimeStampingChainResponse" />
+
+<xs:element name="RequestTimeStampingResponse" type="tns:RequestTimeStampingResponse" />
+
+<xs:element name="SignBuffer" type="tns:SignBuffer" />
+
+<xs:element name="SignBufferResponse" type="tns:SignBufferResponse" />
+
+<xs:element name="SignNistReceipt" type="tns:SignNistReceipt" />
+
+<xs:element name="SignNistReceiptResponse" type="tns:SignNistReceiptResponse" />
+
+<xs:element name="SignPkcs7Buffer" type="tns:SignPkcs7Buffer" />
+
+<xs:element name="SignPkcs7BufferResponse" type="tns:SignPkcs7BufferResponse" />
+
+<xs:element name="VerifyNistReceipt" type="tns:VerifyNistReceipt" />
+
+<xs:element name="VerifyNistReceiptResponse" type="tns:VerifyNistReceiptResponse" />
+
+<xs:element name="VerifyNom151" type="tns:VerifyNom151" />
+
+<xs:element name="VerifyNom151Response" type="tns:VerifyNom151Response" />
+
+<xs:element name="VerifyPkcs1" type="tns:VerifyPkcs1" />
+
+<xs:element name="VerifyPkcs1Response" type="tns:VerifyPkcs1Response" />
+
+<xs:element name="VerifyPkcs7" type="tns:VerifyPkcs7" />
+
+<xs:element name="VerifyPkcs7Response" type="tns:VerifyPkcs7Response" />
+
+<xs:element name="VerifyTimeStamping" type="tns:VerifyTimeStamping" />
+
+<xs:element name="VerifyTimeStampingResponse" type="tns:VerifyTimeStampingResponse" />
+
+<xs:element name="XMLAproval" type="tns:XMLAproval" />
+
+<xs:element name="XMLAprovalResponse" type="tns:XMLAprovalResponse" />
+
+<xs:element name="XMLFileValidation" type="tns:XMLFileValidation" />
+
+<xs:element name="XMLFileValidationResponse" type="tns:XMLFileValidationResponse" />
+
+<xs:complexType name="RequestOcsp">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Certificate" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="autenticacion">
+<xs:sequence>
+<xs:element name="entity" type="xs:string" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+<xs:element name="user" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestOcspResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tRequestOcsp" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tRequestOcsp">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="dateProcess" type="xs:string" minOccurs="0" />
+<xs:element name="daterRevocate" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="fingerPrint" type="xs:string" minOccurs="0" />
+<xs:element name="now" type="xs:string" minOccurs="0" />
+<xs:element name="response" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignPkcs7Buffer">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="object" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="nomName" type="xs:string" minOccurs="0" />
+<xs:element name="ocsp" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignPkcs7BufferResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tSignPkcs7Buffer" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tSignPkcs7Buffer">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomCn" type="xs:string" minOccurs="0" />
+<xs:element name="nomHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomIndex" type="xs:long" />
+<xs:element name="nomMoment" type="xs:string" minOccurs="0" />
+<xs:element name="ocspCn" type="xs:string" minOccurs="0" />
+<xs:element name="ocspHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="sign" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strPkcs7" type="xs:string" minOccurs="0" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestNom151">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" minOccurs="0" />
+<xs:element name="fileName" type="xs:string" minOccurs="0" />
+<xs:element name="nomName" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestNom151Response">
+<xs:sequence>
+<xs:element name="return" type="tns:tRequestNom151" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tRequestNom151">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="nom151" type="xs:string" minOccurs="0" />
+<xs:element name="nomCn" type="xs:string" minOccurs="0" />
+<xs:element name="nomHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomIndex" type="xs:long" />
+<xs:element name="nomMoment" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Pkcs1Items">
+<xs:sequence>
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Pkcs1ItemsResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tGetPkcs1Items" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tGetPkcs1Items">
+<xs:sequence>
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+<xs:element name="momentLocal" type="xs:string" minOccurs="0" />
+<xs:element name="nomCn" type="xs:string" minOccurs="0" />
+<xs:element name="nomHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomIndex" type="xs:long" />
+<xs:element name="nomMoment" type="xs:string" minOccurs="0" />
+<xs:element name="ocspCn" type="xs:string" minOccurs="0" />
+<xs:element name="ocspHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="strDigest" type="xs:string" minOccurs="0" />
+<xs:element name="strSign" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DigestExtended">
+<xs:sequence>
+<xs:element name="b64Digest" type="xs:string" minOccurs="0" />
+<xs:element name="strDate" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DigestExtendedResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="XMLAproval">
+<xs:sequence>
+<xs:element name="identifier" type="xs:string" minOccurs="0" />
+<xs:element name="token" type="xs:string" minOccurs="0" />
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="idTransfer" type="xs:long" />
+<xs:element name="idTitle" type="xs:string" minOccurs="0" />
+<xs:element name="title" type="xs:string" minOccurs="0" />
+<xs:element name="base64Xml" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="XMLAprovalResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:txmlAproval" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="txmlAproval">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="descript" type="xs:string" minOccurs="0" />
+<xs:element name="fingerPrint" type="xs:string" minOccurs="0" />
+<xs:element name="sepName" type="xs:string" minOccurs="0" />
+<xs:element name="sepSerie" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strNow" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+<xs:element name="uuid" type="xs:string" minOccurs="0" />
+<xs:element name="xmlBase64" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ReportPkcs1">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" minOccurs="0" />
+<xs:element name="b64Sign" type="xs:string" minOccurs="0" />
+<xs:element name="b64Certificate" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="nomName" type="xs:string" minOccurs="0" />
+<xs:element name="ocsp" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ReportPkcs1Response">
+<xs:sequence>
+<xs:element name="return" type="tns:tReportPkcs1" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tReportPkcs1">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomCn" type="xs:string" minOccurs="0" />
+<xs:element name="nomHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomIndex" type="xs:long" minOccurs="0" />
+<xs:element name="nomMoment" type="xs:string" minOccurs="0" />
+<xs:element name="responderCn" type="xs:string" minOccurs="0" />
+<xs:element name="responderHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" minOccurs="0" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" minOccurs="0" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DigestData">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="count" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DigestDataResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tDigestData" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tDigestData">
+<xs:sequence>
+<xs:element name="b64Digest" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchGetReference">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchGetReferenceResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:batchReference" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="batchReference">
+<xs:sequence>
+<xs:element name="chaing" type="xs:string" minOccurs="0" />
+<xs:element name="dateProcess" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="digest" type="xs:string" minOccurs="0" />
+<xs:element name="id" type="xs:long" />
+<xs:element name="ocspName" type="xs:string" minOccurs="0" />
+<xs:element name="sign" type="xs:string" minOccurs="0" />
+<xs:element name="signer" type="xs:string" minOccurs="0" />
+<xs:element name="signerCurp" type="xs:string" minOccurs="0" />
+<xs:element name="signerName" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="tsa" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestConfig">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="strLicense" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestConfigResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tRequestConfig" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tRequestConfig">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="information" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchSaveSignerToken">
+<xs:sequence>
+<xs:element name="certificate" type="xs:base64Binary" nillable="true" minOccurs="0" />
+<xs:element name="privateKey" type="xs:base64Binary" nillable="true" minOccurs="0" />
+<xs:element name="password" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="sign" type="xs:string" minOccurs="0" />
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="beginDate" type="xs:string" minOccurs="0" />
+<xs:element name="endDate" type="xs:string" minOccurs="0" />
+<xs:element name="noSigns" type="xs:int" />
+<xs:element name="identifier" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchSaveSignerTokenResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:batchToken" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="batchToken">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="token" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="XMLFileValidation">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Xml" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="XMLFileValidationResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:txmlFileValidation" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="txmlFileValidation">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="descript" type="xs:string" minOccurs="0" />
+<xs:element name="fingerPrint" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strNow" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FromXmlToChain">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Xml" type="xs:string" minOccurs="0" />
+<xs:element name="nameXslt" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FromXmlToChainResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tFromXmlToChain" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tFromXmlToChain">
+<xs:sequence>
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignNistReceipt">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="object" type="xs:string" minOccurs="0" />
+<xs:element name="strNist" type="xs:string" minOccurs="0" />
+<xs:element name="uuid" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="ocsp" type="xs:int" />
+<xs:element name="pathNist" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignNistReceiptResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tSignNistReceipt" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tSignNistReceipt">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strNistReceipt" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignBuffer">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="object" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="ocsp" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="SignBufferResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tSignBuffer" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tSignBuffer">
+<xs:sequence>
+<xs:element name="b64Sign" type="xs:string" minOccurs="0" />
+<xs:element name="b64TimeStamping" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="signerCn" type="xs:string" minOccurs="0" />
+<xs:element name="signerHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyPkcs1">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" minOccurs="0" />
+<xs:element name="base64Sign" type="xs:string" minOccurs="0" />
+<xs:element name="base64Certificate" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyPkcs1Response">
+<xs:sequence>
+<xs:element name="return" type="tns:tVerifyPkcs1" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tVerifyPkcs1">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyNistReceipt">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Receipt" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyNistReceiptResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tVerifyNistReceipt" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tVerifyNistReceipt">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="directory" type="xs:string" minOccurs="0" />
+<xs:element name="stampName" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="timeStamp" type="xs:string" minOccurs="0" />
+<xs:element name="timeStampName" type="xs:string" minOccurs="0" />
+<xs:element name="uniqueId" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchGetReferenceExt">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chaing" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchGetReferenceExtResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:batchReference" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestTimeStampingChain">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestTimeStampingChainResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tRequestTimeStamping" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tRequestTimeStamping">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="index" type="xs:long" />
+<xs:element name="moment" type="xs:string" minOccurs="0" />
+<xs:element name="now" type="xs:string" minOccurs="0" />
+<xs:element name="response" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestTimeStamping">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="strDigest" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RequestTimeStampingResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tRequestTimeStamping" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchSignBuffer">
+<xs:sequence>
+<xs:element name="identifier" type="xs:string" minOccurs="0" />
+<xs:element name="token" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" />
+<xs:element name="algorithm" type="xs:int" />
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="ocsp" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="BatchSignBufferResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:batchPkcs1" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="batchPkcs1">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="descript" type="xs:string" minOccurs="0" />
+<xs:element name="fingerPrint" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="momentTsa" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strNow" type="xs:string" minOccurs="0" />
+<xs:element name="strSign" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DecodeCertificate">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Certificate" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="ocsp" type="xs:int" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="DecodeCertificateResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tDecodeCertificate" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tDecodeCertificate">
+<xs:sequence>
+<xs:element name="acuse" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="fingerPrint" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="issuerCn" type="xs:string" minOccurs="0" />
+<xs:element name="issuerCountry" type="xs:string" minOccurs="0" />
+<xs:element name="issuerCurp" type="xs:string" minOccurs="0" />
+<xs:element name="issuerDepartament" type="xs:string" minOccurs="0" />
+<xs:element name="issuerEmail" type="xs:string" minOccurs="0" />
+<xs:element name="issuerOrganization" type="xs:string" minOccurs="0" />
+<xs:element name="issuerRFC" type="xs:string" minOccurs="0" />
+<xs:element name="issuerState" type="xs:string" minOccurs="0" />
+<xs:element name="ocspResponse" type="xs:string" minOccurs="0" />
+<xs:element name="publicKey" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="strBegin" type="xs:string" minOccurs="0" />
+<xs:element name="strDate" type="xs:string" minOccurs="0" />
+<xs:element name="strEnd" type="xs:string" minOccurs="0" />
+<xs:element name="subjectAdemicDegree" type="xs:string" minOccurs="0" />
+<xs:element name="subjectCn" type="xs:string" minOccurs="0" />
+<xs:element name="subjectCountry" type="xs:string" minOccurs="0" />
+<xs:element name="subjectCurp" type="xs:string" minOccurs="0" />
+<xs:element name="subjectDepartament" type="xs:string" minOccurs="0" />
+<xs:element name="subjectEmail" type="xs:string" minOccurs="0" />
+<xs:element name="subjectLocality" type="xs:string" minOccurs="0" />
+<xs:element name="subjectNoEmploy" type="xs:string" minOccurs="0" />
+<xs:element name="subjectOrganization" type="xs:string" minOccurs="0" />
+<xs:element name="subjectPostalCode" type="xs:string" minOccurs="0" />
+<xs:element name="subjectRFC" type="xs:string" minOccurs="0" />
+<xs:element name="subjectState" type="xs:string" minOccurs="0" />
+<xs:element name="subjectTelephone" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ReportPkcs1Extended">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="chain" type="xs:string" minOccurs="0" />
+<xs:element name="modeChain" type="xs:int" minOccurs="0" />
+<xs:element name="b64Sign" type="xs:string" minOccurs="0" />
+<xs:element name="b64Certificate" type="xs:string" minOccurs="0" />
+<xs:element name="tsaName" type="xs:string" minOccurs="0" />
+<xs:element name="tsaAlgorithm" type="xs:int" />
+<xs:element name="nomName" type="xs:string" minOccurs="0" />
+<xs:element name="ocsp" type="xs:int" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="ReportPkcs1ExtendedResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tReportPkcs1Extended" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tReportPkcs1Extended">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="hash" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="moment" type="xs:string" minOccurs="0" />
+<xs:element name="nomCn" type="xs:string" minOccurs="0" />
+<xs:element name="nomHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="nomIndex" type="xs:long" minOccurs="0" />
+<xs:element name="nomMoment" type="xs:string" minOccurs="0" />
+<xs:element name="responderCn" type="xs:string" minOccurs="0" />
+<xs:element name="responderHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="signPkcs7" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" minOccurs="0" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" minOccurs="0" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyPkcs7">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Pkcs7" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyPkcs7Response">
+<xs:sequence>
+<xs:element name="return" type="tns:tVerifyPkcs7" nillable="true" minOccurs="0" maxOccurs="unbounded" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tVerifyPkcs7">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="digest" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="ocspCn" type="xs:string" minOccurs="0" />
+<xs:element name="ocspHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="transfer" type="xs:long" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyTimeStamping">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64TimeStamping" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyTimeStampingResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:tVerifyTimeStamping" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tVerifyTimeStamping">
+<xs:sequence>
+<xs:element name="cn" type="xs:string" minOccurs="0" />
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="digest" type="xs:string" minOccurs="0" />
+<xs:element name="hexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="index" type="xs:long" />
+<xs:element name="moment" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyNom151">
+<xs:sequence>
+<xs:element name="reference" type="xs:string" minOccurs="0" />
+<xs:element name="base64Nom151" type="xs:string" minOccurs="0" />
+<xs:element name="base64PscCertificate" type="xs:string" minOccurs="0" />
+<xs:element name="base64ClientCertificate" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="VerifyNom151Response">
+<xs:sequence>
+<xs:element name="return" type="tns:tVerifyNom151" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="tVerifyNom151">
+<xs:sequence>
+<xs:element name="description" type="xs:string" minOccurs="0" />
+<xs:element name="nameNom151" type="xs:string" minOccurs="0" />
+<xs:element name="pscCn" type="xs:string" minOccurs="0" />
+<xs:element name="pscHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="state" type="xs:int" />
+<xs:element name="transfer" type="xs:long" />
+<xs:element name="tsaCn" type="xs:string" minOccurs="0" />
+<xs:element name="tsaHexSerie" type="xs:string" minOccurs="0" />
+<xs:element name="tsaIndex" type="xs:long" />
+<xs:element name="tsaMoment" type="xs:string" minOccurs="0" />
+<xs:element name="userCn" type="xs:string" minOccurs="0" />
+<xs:element name="userHexSerie" type="xs:string" minOccurs="0" />
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

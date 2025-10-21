@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 18 18:51:58 CST 2023
+@default-central-http\://repo1.maven.org/maven2/.lastUpdated=1702947118191
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1702946891994
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.apache.maven.release\:maven-release\:pom\:2.5.3 from/to central (http\://repo1.maven.org/maven2)\: Transfer failed for http\://repo1.maven.org/maven2/org/apache/maven/release/maven-release/2.5.3/maven-release-2.5.3.pom 501 HTTPS Required
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1702946891841
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

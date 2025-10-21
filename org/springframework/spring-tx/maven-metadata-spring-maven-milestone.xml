@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.springframework</groupId>
+  <artifactId>spring-tx</artifactId>
+  <version>3.2.0.M1</version>
+  <versioning>
+    <latest>3.2.0.M1</latest>
+    <release>3.2.0.M1</release>
+    <versions>
+      <version>3.0.0.M3</version>
+      <version>3.0.0.M4</version>
+      <version>3.0.0.RC1</version>
+      <version>3.0.0.RC2</version>
+      <version>3.0.0.RC3</version>
+      <version>3.1.0.M1</version>
+      <version>3.1.0.M2</version>
+      <version>3.1.0.RC1</version>
+      <version>3.1.0.RC2</version>
+      <version>3.2.0.M1</version>
+    </versions>
+    <lastUpdated>20120529071753</lastUpdated>
+  </versioning>
+</metadata>

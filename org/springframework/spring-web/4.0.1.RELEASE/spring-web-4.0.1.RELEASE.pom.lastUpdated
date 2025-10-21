@@ -1,0 +1,7 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Oct 26 11:43:21 CDT 2017
+http\://repo.maven.apache.org/maven2/.lastUpdated=1509036201908
+https\://mvnrepository.com/artifact/org.springframework/.lastUpdated=1509036201268
+da39a3ee5e6b4b0d3255bfef95601890afd80709@168.255.203.51\:10001>default-http\://repository.primefaces.org/.lastUpdated=1509036201799
+https\://mvnrepository.com/artifact/org.springframework/.error=
+http\://repository.primefaces.org/.error=Could not transfer artifact org.springframework\:spring-web\:pom\:4.0.1.RELEASE from/to PrimeFaces-maven-lib (http\://repository.primefaces.org/)\: peer not authenticated

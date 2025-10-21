@@ -1,0 +1,16 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri Aug 12 11:48:33 CDT 2022
+https\://repo1.maven.org/maven2/.lastUpdated=1597876126497
+http\://repo.springsource.org/libs-milestone-local/.lastUpdated=1597256404708
+da39a3ee5e6b4b0d3255bfef95601890afd80709@168.255.203.51\:10001>default-http\://repo.maven.apache.org/maven2/.lastUpdated=1597171344104
+http\://repository.springsource.com/maven/bundles/release/.error=
+https\://repo.spring.io/libs-release/.error=
+http\://repo.springsource.org/libs-release-local/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:org.springframework.test\:pom\:4.1.0.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/org.springframework.test/4.1.0.RELEASE/org.springframework.test-4.1.0.RELEASE.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repo.springsource.org/libs-milestone-local/.error=
+https\://repo.spring.io/libs-release/.lastUpdated=1597171304872
+http\://repo.springsource.org/libs-release-local/.lastUpdated=1597256404328
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1660322913498
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1660322913236
+https\://repo1.maven.org/maven2/.error=

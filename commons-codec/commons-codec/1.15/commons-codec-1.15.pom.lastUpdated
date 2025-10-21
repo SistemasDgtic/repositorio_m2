@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 21 13:22:43 CST 2025
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1737487363442
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1737487363451
+https\://repo.maven.apache.org/maven2/.lastUpdated=1737487363792
+https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact commons-codec\:commons-codec\:pom\:1.15 from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: Transfer failed for https\://code.lds.org/nexus/content/groups/main-repo/commons-codec/commons-codec/1.15/commons-codec-1.15.pom
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact commons-codec\:commons-codec\:pom\:1.15 from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/commons-codec/commons-codec/1.15/commons-codec-1.15.pom
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact commons-codec\:commons-codec\:pom\:1.15 from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/commons-codec/commons-codec/1.15/commons-codec-1.15.pom
+@default-codelds-https\://code.lds.org/nexus/content/groups/main-repo/.lastUpdated=1737487363432

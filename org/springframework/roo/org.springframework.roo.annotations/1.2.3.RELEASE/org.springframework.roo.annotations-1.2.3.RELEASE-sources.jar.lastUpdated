@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jan 27 17:28:35 CST 2020
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1580167713028
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.lastUpdated=1580167713233
+http\://spring-roo-repository.springsource.org/release/.lastUpdated=1580167715383
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.error=

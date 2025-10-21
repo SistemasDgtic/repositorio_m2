@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Jun 16 11:36:10 CDT 2020
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1592324947209
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1592325370352
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1592324946821
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact mx.gob.sep\:sep-sesi-seguridad\:pom\:1.0.0-SNAPSHOT-seguridad from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/mx/gob/sep/sep-sesi-seguridad/1.0.0-SNAPSHOT-seguridad/sep-sesi-seguridad-1.0.0-SNAPSHOT-seguridad.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

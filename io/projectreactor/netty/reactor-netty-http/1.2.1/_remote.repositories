@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 17 14:25:26 CST 2025
+reactor-netty-http-1.2.1-sources.jar>central=
+reactor-netty-http-1.2.1.jar>central=
+reactor-netty-http-1.2.1.pom>central=

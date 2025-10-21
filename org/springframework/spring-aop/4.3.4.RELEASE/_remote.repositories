@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Jan 15 19:24:19 CST 2025
+spring-aop-4.3.4.RELEASE.jar>=
+spring-aop-4.3.4.RELEASE.pom>central=

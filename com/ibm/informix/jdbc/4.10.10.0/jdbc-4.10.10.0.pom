@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.ibm.informix</groupId>
+  <artifactId>jdbc</artifactId>
+  <version>4.10.10.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.mongodb</groupId>
+      <artifactId>bson</artifactId>
+      <version>2.13.0</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <name>IBM Informix JDBC Driver</name>
+  <description>IBM Informix® JDBC Driver is a native-protocol, pure-Java driver (Type 4) that supports the JDBC specification. When you use Informix JDBC Driver in a Java program to interact with the Informix database, your session connects directly to the database or database server, without a middle tier. You can use the JDBC driver for Java applications that access the Informix database server.</description>
+  <packaging>jar</packaging>
+  <url>www.ibm.com</url>
+  <scm>
+    <url>scm:git:git@github.com/ibm-informix/InformixServer.git</url>
+    <connection>scm:git:git@github.com/ibm-informix/InformixServer.git</connection>
+    <developerConnection>scm:git:git@github.com/ibm-informix/InformixServer.git</developerConnection>
+  </scm>
+  <developers>
+    <developer>
+      <name>Brian J. Hughes</name>
+      <email>brian.hughes@hcl.com</email>
+      <organization>IBM</organization>
+      <organizationUrl>www.ibm.com</organizationUrl>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>Informix JDBC License</name>
+      <url>http://www-03.ibm.com/software/sla/sladb.nsf/doclookup/CA4476C0AF8346EC852579290012D218?OpenDocument</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

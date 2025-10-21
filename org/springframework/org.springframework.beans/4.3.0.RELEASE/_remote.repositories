@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Apr 29 14:49:10 CDT 2022
+org.springframework.beans-4.3.0.RELEASE.jar>=
+org.springframework.beans-4.3.0.RELEASE.pom>com.springsource.repository.bundles.release=

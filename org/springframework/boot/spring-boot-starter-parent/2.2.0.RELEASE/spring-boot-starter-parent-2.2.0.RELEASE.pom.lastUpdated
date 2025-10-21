@@ -1,0 +1,6 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Tue Sep 22 19:01:24 CDT 2020
+default-https\://repo.spring.io/libs-milestone/.lastUpdated=1600819284098
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1600819284264
+https\://repo.spring.io/libs-milestone/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:2.2.0.RELEASE from/to spring-milestones (https\://repo.spring.io/libs-milestone)\: peer not authenticated
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-parent\:pom\:2.2.0.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-parent/2.2.0.RELEASE/spring-boot-starter-parent-2.2.0.RELEASE.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.

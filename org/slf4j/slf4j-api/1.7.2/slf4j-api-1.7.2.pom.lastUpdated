@@ -1,0 +1,9 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Jan 23 11:14:49 CST 2020
+https\://maven.alfresco.com/nexus/content/groups/public/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1579799689316
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.error=
+http\://spring-roo-repository.springsource.org/release/.lastUpdated=1579799687953
+http\://spring-roo-repository.springsource.org/release/.error=
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1579799686521
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.lastUpdated=1579799520261

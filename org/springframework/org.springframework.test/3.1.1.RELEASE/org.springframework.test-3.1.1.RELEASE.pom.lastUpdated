@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Sep 20 12:40:33 CDT 2012
+default-http\://repo1.maven.org/maven2/.lastUpdated=1348162833275
+default-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1348162793252
+default-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1348162753233
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework\:org.springframework.test\:pom\:3.1.1.RELEASE from/to central (http\://repo1.maven.org/maven2)\: Connect times out
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework\:org.springframework.test\:pom\:3.1.1.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Connect times out
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework\:org.springframework.test\:pom\:3.1.1.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Connect times out

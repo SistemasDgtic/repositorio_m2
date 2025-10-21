@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Mon Mar 27 18:22:30 CST 2023
+default-http\://repo1.maven.org/maven2/.lastUpdated=1679962950035
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1679962950327
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact informix\:informix\:pom\:10 from/to central (http\://repo1.maven.org/maven2)\: Failed to transfer file\: http\://repo1.maven.org/maven2/informix/informix/10/informix-10.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1679962950185
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

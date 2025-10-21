@@ -1,0 +1,11 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Jul 28 17:22:05 CDT 2021
+@default-central-https\://repo1.maven.org/maven2/.lastUpdated=1615336932429
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1627498601541
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-jdbc\:pom\:4.3.0.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/spring-jdbc/4.3.0.RELEASE/spring-jdbc-4.3.0.RELEASE.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+https\://repo.maven.apache.org/maven2/.lastUpdated=1627510925301
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1627498601413
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1627498601246
+https\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework\:spring-jdbc\:pom\:4.3.0.RELEASE from/to central (https\://repo1.maven.org/maven2)\: Received fatal alert\: protocol_version

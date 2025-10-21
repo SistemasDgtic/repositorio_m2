@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 14 21:05:45 CST 2025
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1736910345273
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1736910345289
+https\://repo.maven.apache.org/maven2/.lastUpdated=1736910345705
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework\:spring-beans\:pom\:4.3.4.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.pom
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework\:spring-beans\:pom\:4.3.4.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/org/springframework/spring-beans/4.3.4.RELEASE/spring-beans-4.3.4.RELEASE.pom

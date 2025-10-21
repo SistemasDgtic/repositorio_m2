@@ -1,0 +1,10 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Oct 03 15:33:08 CDT 2018
+http\://repo.maven.apache.org/maven2/.lastUpdated=1538598788046
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1538598787660
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1538598787482
+https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact mx.gob.sep\:WSBusCripto\:pom\:1.0 from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: peer not authenticated
+http\://repo.maven.apache.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+default-https\://code.lds.org/nexus/content/groups/main-repo/.lastUpdated=1538598786796
+http\://repository.springsource.com/maven/bundles/release/.error=

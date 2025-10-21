@@ -1,0 +1,5 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Jul 26 17:12:37 CDT 2012
+org.springframework.beans-3.1.1.RELEASE-sources.jar>com.springsource.repository.bundles.release=
+org.springframework.beans-3.1.1.RELEASE.jar>com.springsource.repository.bundles.release=
+org.springframework.beans-3.1.1.RELEASE.pom>com.springsource.repository.bundles.release=

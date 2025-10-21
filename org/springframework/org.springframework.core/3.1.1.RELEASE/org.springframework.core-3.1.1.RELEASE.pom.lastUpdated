@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Aug 16 13:51:29 CDT 2012
+default-http\://repo1.maven.org/maven2/.lastUpdated=1345143089108
+default-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1345143089100
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework\:org.springframework.core\:pom\:3.1.1.RELEASE from/to central (http\://repo1.maven.org/maven2)\: The operation was cancelled.
+default-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1345143089092
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework\:org.springframework.core\:pom\:3.1.1.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: The operation was cancelled.
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework\:org.springframework.core\:pom\:3.1.1.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: The operation was cancelled.

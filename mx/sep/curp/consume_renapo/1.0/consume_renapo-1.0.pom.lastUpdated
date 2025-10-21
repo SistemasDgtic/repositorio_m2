@@ -1,0 +1,18 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Oct 20 18:08:55 CST 2025
+default-http\://maven.jahia.org/maven2/.lastUpdated=1739206659263
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1739206681160
+default-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1739206658144
+default-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1739206658144
+default-http\://www.cameliatk.jp/maven2/repository/thirdparty/.lastUpdated=1739206681078
+default-https\://maven.jahia.org/maven2/.lastUpdated=1732058757579
+http\://maven.jahia.org/maven2/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to jahia (http\://maven.jahia.org/maven2/)\: Received fatal alert\: handshake_failure
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/mx/sep/curp/consume_renapo/1.0/consume_renapo-1.0.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: repository.springsource.com
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: repository.springsource.com
+http\://www.cameliatk.jp/maven2/repository/thirdparty/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to cameliatk (http\://www.cameliatk.jp/maven2/repository/thirdparty/)\: Connect to www.cameliatk.jp\:80 [www.cameliatk.jp/182.163.56.97] failed\: Connection timed out\: connect
+https\://maven.jahia.org/maven2/.error=Could not transfer artifact mx.sep.curp\:consume_renapo\:pom\:1.0 from/to jahia (https\://maven.jahia.org/maven2/)\: sun.security.validator.ValidatorException\: PKIX path building failed\: sun.security.provider.certpath.SunCertPathBuilderException\: unable to find valid certification path to requested target
+https\://repo.maven.apache.org/maven2/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1761005335699
+https\://repo1.maven.org/maven2/.error=
+https\://repo1.maven.org/maven2/.lastUpdated=1727393252539

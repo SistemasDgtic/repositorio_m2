@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+-->
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.codehaus.mojo</groupId>
+        <artifactId>mojo-parent</artifactId>
+        <version>37</version>
+    </parent>
+
+    <artifactId>jaxb2-maven-plugin</artifactId>
+    <version>2.2</version>
+    <packaging>maven-plugin</packaging>
+
+    <name>JAXB-2 Maven Plugin</name>
+    <description>Mojo's JAXB-2 Maven plugin is used to create an object graph from XSDs based on the JAXB 2.1
+        implementation and to generate XSDs from JAXB annotated Java classes.
+    </description>
+    <url>http://mojo.codehaus.org/jaxb2-maven-plugin/</url>
+    <inceptionYear>2005</inceptionYear>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <developers>
+        <developer>
+            <name>Lennart Jörelid</name>
+            <email>lj@jguru.se</email>
+            <roles>
+                <role>Committer</role>
+            </roles>
+            <organization>jGuru Europe AB</organization>
+            <organizationUrl>http://www.jguru.se</organizationUrl>
+            <timezone>Europe/Stockholm</timezone>
+        </developer>
+        <developer>
+            <id>jgenender</id>
+            <name>Jeff Genender</name>
+            <email>jgenender@codehaus.org</email>
+            <organization>Savoir Technologies, Inc</organization>
+            <organizationUrl>http://www.savoirtech.com</organizationUrl>
+            <roles>
+                <role>Committer</role>
+            </roles>
+            <timezone>-7</timezone>
+        </developer>
+        <developer>
+            <id>rfscholte</id>
+            <name>Robert Scholte</name>
+            <email>rfscholte@codehaus.org</email>
+            <roles>
+                <role>Committer</role>
+            </roles>
+            <timezone>Europe/Amsterdam</timezone>
+        </developer>
+    </developers>
+
+    <prerequisites>
+        <maven>${mavenVersion}</maven>
+    </prerequisites>
+
+    <scm>
+        <connection>scm:git:https://github.com/mojohaus/jaxb2-maven-plugin.git</connection>
+        <developerConnection>scm:git:ssh://git@github.com/mojohaus/jaxb2-maven-plugin.git</developerConnection>
+        <url>https://github.com/mojohaus/jaxb2-maven-plugin.git</url>
+      <tag>jaxb2-maven-plugin-2.2</tag>
+  </scm>
+    <issueManagement>
+        <system>GitHub</system>
+        <url>https://github.com/mojohaus/jaxb2-maven-plugin/issues</url>
+    </issueManagement>
+    <ciManagement>
+        <system>TravisCI</system>
+        <url>https://travis-ci.org/mojohaus/jaxb2-maven-plugin</url>
+    </ciManagement>
+
+    <properties>
+        <!-- Define Maven and JDK versions-->
+        <mavenVersion>3.0</mavenVersion>
+        <mojo.java.target>1.6</mojo.java.target>
+
+        <!-- Plexus component versions -->
+        <plexus-compiler-api.version>2.5</plexus-compiler-api.version>
+        <plexus-utils.version>3.0.22</plexus-utils.version>
+        <plexus-build-api.version>0.0.7</plexus-build-api.version>
+
+        <!-- JAXB tooling versions -->
+        <jaxb.version>2.2.11</jaxb.version>
+        <stax-ex.version>1.7.6</stax-ex.version>
+        <qdox.version>2.0-M3</qdox.version>
+
+        <!-- Test scope dependencies' versions -->
+        <xmlunit.version>1.6</xmlunit.version>
+        <nazgul-core-xmlbinding-test.version>1.8.0</nazgul-core-xmlbinding-test.version>
+        <maven-plugin-annotations.version>3.4</maven-plugin-annotations.version>
+    </properties>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.glassfish.jaxb</groupId>
+                <artifactId>jaxb-bom</artifactId>
+                <version>${jaxb.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.jvnet.staxex</groupId>
+                <artifactId>stax-ex</artifactId>
+                <version>${stax-ex.version}</version>
+                <exclusions>
+                    <!-- part of JDK 6+ -->
+                    <exclusion>
+                        <groupId>javax.activation</groupId>
+                        <artifactId>activation</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>stax-api</artifactId>
+                        <groupId>javax.xml.stream</groupId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+    <dependencies>
+        <!--
+            Use the modern, modularized JAXB structure as indicated
+            within the JAXB RI artifacts.
+        -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>${jaxb.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-core</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-runtime</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-xjc</artifactId>
+            <exclusions>
+                <!--
+                    Classes from tools.jar must be loaded by the
+                -->
+                <exclusion>
+                    <groupId>com.sun</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish.jaxb</groupId>
+            <artifactId>jaxb-jxc</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.sun</groupId>
+                    <artifactId>tools</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <!-- QDox, used for JavaDoc processing -->
+        <dependency>
+            <groupId>com.thoughtworks.qdox</groupId>
+            <artifactId>qdox</artifactId>
+            <version>${qdox.version}</version>
+        </dependency>
+
+        <!-- Maven dependencies -->
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-plugin-api</artifactId>
+            <version>${mavenVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-core</artifactId>
+            <version>${mavenVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-artifact</artifactId>
+            <version>${mavenVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven</groupId>
+            <artifactId>maven-model</artifactId>
+            <version>${mavenVersion}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.maven.plugin-tools</groupId>
+            <artifactId>maven-plugin-annotations</artifactId>
+            <version>${maven-plugin-annotations.version}</version>
+            <!--
+                Annotations are not needed for plugin execution.
+                Therefore, use provided scope, to remove this from compile path.
+            -->
+            <scope>provided</scope>
+        </dependency>
+
+        <!--
+            Plexus components dependencies.
+        -->
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-compiler-api</artifactId>
+            <version>${plexus-compiler-api.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.codehaus.plexus</groupId>
+            <artifactId>plexus-utils</artifactId>
+            <version>${plexus-utils.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.sonatype.plexus</groupId>
+            <artifactId>plexus-build-api</artifactId>
+            <version>${plexus-build-api.version}</version>
+        </dependency>
+
+        <!--
+            Test-scope dependencies.
+        -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>xmlunit</groupId>
+            <artifactId>xmlunit</artifactId>
+            <version>${xmlunit.version}</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>se.jguru.nazgul.test.xmlbinding</groupId>
+            <artifactId>nazgul-core-xmlbinding-test</artifactId>
+            <version>${nazgul-core-xmlbinding-test.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <configuration>
+                    <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate-descriptor</id>
+                        <goals>
+                            <goal>descriptor</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Generate maven dependencies listing file -->
+            <plugin>
+                <groupId>org.apache.servicemix.tooling</groupId>
+                <artifactId>depends-maven-plugin</artifactId>
+                <version>1.2</version>
+                <executions>
+                    <execution>
+                        <id>generate-depends-file</id>
+                        <goals>
+                            <goal>generate-depends-file</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Provides PlantUML integration into site deployments. -->
+            <plugin>
+                <groupId>com.github.jeluard</groupId>
+                <artifactId>plantuml-maven-plugin</artifactId>
+                <version>7954</version>
+                <configuration>
+                    <sourceFiles>
+                        <directory>${basedir}</directory>
+                        <includes>
+                            <include>src/site/**/*.puml</include>
+                        </includes>
+                    </sourceFiles>
+                    <outputDirectory>${project.build.directory}/site/images/plantuml</outputDirectory>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>generate-plantuml-diagrams</id>
+                        <goals>
+                            <goal>generate</goal>
+                        </goals>
+                        <phase>pre-site</phase>
+                    </execution>
+                </executions>
+                <dependencies>
+                    <dependency>
+                        <groupId>net.sourceforge.plantuml</groupId>
+                        <artifactId>plantuml</artifactId>
+                        <version>8017</version>
+                    </dependency>
+                </dependencies>
+            </plugin>
+        </plugins>
+    </build>
+
+    <profiles>
+        <profile>
+            <id>run-its</id>
+            <activation>
+                <property>
+                    <name>skipTests</name>
+                    <value>!true</value>
+                </property>
+            </activation>
+            <build>
+                <plugins>
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-invoker-plugin</artifactId>
+                        <configuration>
+                            <debug>true</debug>
+                            <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
+                            <!--<preBuildHookScript>setup</preBuildHookScript>-->
+                            <postBuildHookScript>verify</postBuildHookScript>
+                            <localRepositoryPath>${project.build.directory}/local-repo</localRepositoryPath>
+                            <settingsFile>src/it/settings.xml</settingsFile>
+                            <goals>
+                                <goal>clean</goal>
+                                <goal>test-compile</goal>
+                            </goals>
+                        </configuration>
+                        <executions>
+                            <execution>
+                                <id>integration-test</id>
+                                <goals>
+                                    <goal>install</goal>
+                                    <goal>run</goal>
+                                </goals>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+        <profile>
+            <id>reporting</id>
+            <activation>
+                <property>
+                    <name>skipReports</name>
+                    <value>!true</value>
+                </property>
+            </activation>
+            <reporting>
+                <plugins>
+                    <!-- Apache plugins in alphabetical order -->
+                    <plugin>
+                        <groupId>org.apache.maven.plugins</groupId>
+                        <artifactId>maven-checkstyle-plugin</artifactId>
+                        <version>${maven-checkstyle-plugin.version}</version>
+                        <configuration>
+                            <skip>true</skip>
+                            <configLocation>config/maven_checks.xml</configLocation>
+                            <headerLocation>config/maven-header.txt</headerLocation>
+                        </configuration>
+                    </plugin>
+                </plugins>
+            </reporting>
+        </profile>
+    </profiles>
+</project>

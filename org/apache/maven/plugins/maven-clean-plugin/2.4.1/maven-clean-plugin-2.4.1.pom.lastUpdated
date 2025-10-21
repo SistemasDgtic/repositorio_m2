@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 09 14:19:42 CST 2022
+default-https\://repo.maven.apache.org/maven2/.lastUpdated=1644437982777
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-clean-plugin\:pom\:2.4.1 from/to mirror1 (https\://repo.maven.apache.org/maven2/)\: peer not authenticated

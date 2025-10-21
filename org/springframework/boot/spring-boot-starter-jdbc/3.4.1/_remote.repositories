@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 23 17:58:27 CST 2025
+spring-boot-starter-jdbc-3.4.1-sources.jar>central=
+spring-boot-starter-jdbc-3.4.1.jar>central=
+spring-boot-starter-jdbc-3.4.1.pom>central=

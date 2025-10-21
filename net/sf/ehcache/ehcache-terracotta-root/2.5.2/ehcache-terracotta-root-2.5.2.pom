@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <artifactId>forge-parent</artifactId>
+    <groupId>org.terracotta.forge</groupId>
+    <version>2.3</version>
+  </parent>
+
+  <name>Ehcache Terracotta Support</name>
+  <groupId>net.sf.ehcache</groupId>
+  <artifactId>ehcache-terracotta-root</artifactId>
+  <packaging>pom</packaging>
+  <version>2.5.2</version>
+
+
+  <modules>
+    <module>bootstrap</module>
+    <module>packaging</module>
+    <module>system-tests</module>
+  </modules>
+
+  <properties>
+    <terracotta-toolkit-1.0-api.version>1.0.0</terracotta-toolkit-1.0-api.version>
+    <tim-ehcache-2.x.version>1.8.2</tim-ehcache-2.x.version>
+    <ehcache-core.version>2.5.2</ehcache-core.version>
+  </properties>
+
+  <profiles>
+    <profile>
+      <id>deploy-sourceforge</id>
+        <distributionManagement>
+          <snapshotRepository>
+            <id>sourceforge-snapshots</id>
+            <name>Sourceforge Snapshots</name>
+            <uniqueVersion>false</uniqueVersion>
+            <url>http://oss.sonatype.org/content/repositories/sourceforge-snapshots</url>
+          </snapshotRepository>        
+          <repository>
+            <id>sourceforge-releases</id>
+            <name>Sourceforge Releases</name>
+            <url>http://oss.sonatype.org/service/local/staging/deploy/maven2</url>
+          </repository>
+        </distributionManagement>
+    </profile>
+  </profiles>  
+
+  <repositories>
+    <repository>
+      <id>terracotta-repository</id>
+      <url>http://www.terracotta.org/download/reflector/releases</url>
+    </repository>
+  </repositories>
+  <pluginRepositories>
+    <pluginRepository>
+      <id>terracotta-repository</id>
+      <url>http://www.terracotta.org/download/reflector/releases</url>
+    </pluginRepository>
+  </pluginRepositories>
+</project>

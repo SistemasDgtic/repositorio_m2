@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Aug 16 13:36:47 CDT 2012
+default-http\://repo1.maven.org/maven2/.lastUpdated=1345142207710
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.apache.maven.plugins\:maven-compiler-plugin\:pom\:2.3.2 from/to central (http\://repo1.maven.org/maven2)\: Connect times out

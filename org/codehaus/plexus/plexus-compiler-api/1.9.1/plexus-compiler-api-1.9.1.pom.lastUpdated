@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 09 14:40:29 CST 2022
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1644439229103
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.plexus\:plexus-compiler-api\:pom\:1.9.1 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-compiler-api/1.9.1/plexus-compiler-api-1.9.1.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.

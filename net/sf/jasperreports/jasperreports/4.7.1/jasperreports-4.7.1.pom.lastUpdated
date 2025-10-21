@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 08 18:54:48 CST 2023
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1675904088846
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1675904088984
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1675904088630
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact net.sf.jasperreports\:jasperreports\:pom\:4.7.1 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/net/sf/jasperreports/jasperreports/4.7.1/jasperreports-4.7.1.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

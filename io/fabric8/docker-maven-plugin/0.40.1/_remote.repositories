@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jun 23 17:58:34 CST 2025
+docker-maven-plugin-0.40.1.jar>central=
+docker-maven-plugin-0.40.1.pom>central=

@@ -1,0 +1,13 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>itext</groupId>
+  <artifactId>itext</artifactId>
+  <name>iText</name>
+  <version>1.02b</version>
+
+  <distributionManagement>
+    <relocation>
+      <groupId>com.lowagie</groupId>
+    </relocation>
+  </distributionManagement>
+</project>

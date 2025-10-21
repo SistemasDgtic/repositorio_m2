@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Jul 05 13:40:35 CDT 2012
+com.springsource.slf4j.org.apache.commons.logging-1.6.1.jar>com.springsource.repository.bundles.external=
+com.springsource.slf4j.org.apache.commons.logging-1.6.1.pom>com.springsource.repository.bundles.external=

@@ -1,0 +1,15 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Feb 23 12:29:19 CST 2022
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1645640853721
+http\://repo.springsource.org/libs-milestone-local/.lastUpdated=1597347450412
+@default-central-https\://repo1.maven.org/maven2/.lastUpdated=1615336931158
+http\://repo.springsource.org/libs-release-local/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.web\:pom\:4.1.0.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/org/springframework/security/org.springframework.security.web/4.1.0.RELEASE/org.springframework.security.web-4.1.0.RELEASE.pom
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1643134850194
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1645640853714
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.web\:pom\:4.1.0.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.web/4.1.0.RELEASE/org.springframework.security.web-4.1.0.RELEASE.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repo.springsource.org/libs-milestone-local/.error=
+http\://repo.springsource.org/libs-release-local/.lastUpdated=1597347450012
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.web\:pom\:4.1.0.RELEASE from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/org/springframework/security/org.springframework.security.web/4.1.0.RELEASE/org.springframework.security.web-4.1.0.RELEASE.pom
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1645640959955
+https\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.web\:pom\:4.1.0.RELEASE from/to central (https\://repo1.maven.org/maven2)\: Received fatal alert\: protocol_version

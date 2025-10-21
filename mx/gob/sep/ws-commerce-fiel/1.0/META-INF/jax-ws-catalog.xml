@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://172.16.130.24:8080/WSCommercefielInterno/WSCommerceFiel?wsdl" uri="wsdl/172.16.130.24_8080/WSCommercefielInterno/WSCommerceFiel.wsdl"/>
+    <system systemId="http://172.16.130.24:8080/WSCommercefielInterno/WSCommerceFiel?xsd=1" uri="wsdl/172.16.130.24_8080/WSCommercefielInterno/WSCommerceFiel.xsd_1.xsd"/>
+    <system systemId="http://10.10.50.31:9080/WSCommercefielInterno/WSCommerceFiel?wsdl" uri="wsdl/10.10.50.31_9080/WSCommercefielInterno/WSCommerceFiel.wsdl"/>
+    <system systemId="http://10.10.50.31:9080/WSCommercefielInterno/WSCommerceFiel?xsd=1" uri="wsdl/10.10.50.31_9080/WSCommercefielInterno/WSCommerceFiel.xsd_1.xsd"/>
+</catalog>

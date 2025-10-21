@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 08 18:53:16 CST 2023
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1675903996088
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1675903996226
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1675903995903
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.codehaus.groovy\:groovy-all\:pom\:1.8.6 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/codehaus/groovy/groovy-all/1.8.6/groovy-all-1.8.6.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

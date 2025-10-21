@@ -1,0 +1,9 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Mon Aug 26 12:51:38 CDT 2024
+http\://repo.springsource.org/libs-release-local/.lastUpdated=1597256341787
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1724694697998
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1724694698083
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1724694697771
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.springframework\:spring-core\:pom\:4.1.0.RELEASE from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/springframework/spring-core/4.1.0.RELEASE/spring-core-4.1.0.RELEASE.pom. Return code is\: 501, ReasonPhrase\: HTTPS Required.
+http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=

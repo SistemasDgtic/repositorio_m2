@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>mx.inapvm</groupId>
+  <artifactId>inapvm-web</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20190711155420</lastUpdated>
+  </versioning>
+</metadata>

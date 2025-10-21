@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 09 14:40:28 CST 2022
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1644439228743
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.maven.reporting\:maven-reporting-api\:pom\:2.2.1 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/apache/maven/reporting/maven-reporting-api/2.2.1/maven-reporting-api-2.2.1.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.

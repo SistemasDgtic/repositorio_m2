@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Jan 27 17:32:50 CST 2020
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.lastUpdated=1580167968426
+https\://maven.alfresco.com/nexus/content/groups/public/.lastUpdated=1580167968171
+0e457066c91fff7265565a4b26662058120af9dd@168.255.203.51\:10001>@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1580167970998
+http\://spring-roo-repository.springsource.org/release/.error=
+http\://download.eclipse.org/rt/eclipselink/maven.repo/.error=
+http\://spring-roo-repository.springsource.org/release/.lastUpdated=1580167968669
+https\://maven.alfresco.com/nexus/content/groups/public/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.slf4j\:slf4j-api\:jar\:javadoc\:1.7.2 from/to central (https\://repo.maven.apache.org/maven2)\: unexpected end of stream on https\://repo.maven.apache.org/...

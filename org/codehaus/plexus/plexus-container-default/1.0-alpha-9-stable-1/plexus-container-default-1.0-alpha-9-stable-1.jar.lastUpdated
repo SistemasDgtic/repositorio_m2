@@ -1,0 +1,11 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Fri Aug 21 10:14:26 CDT 2020
+https\://repository.springsource.com/maven/bundles/release/.error=
+https\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+https\://repository.springsource.com/maven/bundles/release/.lastUpdated=1584560047680
+https\://repository.springsource.com/maven/bundles/external/.lastUpdated=1584560048159
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1598022866417
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1598022865856
+http\://200.38.189.150/artifactory/infotec/.lastUpdated=1401150583804

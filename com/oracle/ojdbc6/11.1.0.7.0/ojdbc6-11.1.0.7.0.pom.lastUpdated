@@ -1,0 +1,14 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Jan 21 13:24:58 CST 2025
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1737487498889
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact com.oracle\:ojdbc6\:pom\:11.1.0.7.0 from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/com/oracle/ojdbc6/11.1.0.7.0/ojdbc6-11.1.0.7.0.pom
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact com.oracle\:ojdbc6\:pom\:11.1.0.7.0 from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/com/oracle/ojdbc6/11.1.0.7.0/ojdbc6-11.1.0.7.0.pom
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1724694697555
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1737487498902
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact com.oracle\:ojdbc6\:pom\:11.1.0.7.0 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/com/oracle/ojdbc6/11.1.0.7.0/ojdbc6-11.1.0.7.0.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
+@default-codelds-https\://code.lds.org/nexus/content/groups/main-repo/.lastUpdated=1737487400267
+https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact com.oracle\:ojdbc6\:pom\:11.1.0.7.0 from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: Transfer failed for https\://code.lds.org/nexus/content/groups/main-repo/com/oracle/ojdbc6/11.1.0.7.0/ojdbc6-11.1.0.7.0.pom
+https\://repo.maven.apache.org/maven2/.lastUpdated=1737486895844
+https\://repo.maven.apache.org/maven2/.error=
+http\://repo1.maven.org/maven2/.lastUpdated=1558371695832
+http\://repo1.maven.org/maven2/.error=

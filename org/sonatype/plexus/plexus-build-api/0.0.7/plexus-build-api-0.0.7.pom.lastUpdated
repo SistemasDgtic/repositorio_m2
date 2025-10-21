@@ -1,0 +1,4 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Wed Feb 09 14:40:29 CST 2022
+default-http\://repo.maven.apache.org/maven2/.lastUpdated=1644439229263
+http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.sonatype.plexus\:plexus-build-api\:pom\:0.0.7 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/org/sonatype/plexus/plexus-build-api/0.0.7/plexus-build-api-0.0.7.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.

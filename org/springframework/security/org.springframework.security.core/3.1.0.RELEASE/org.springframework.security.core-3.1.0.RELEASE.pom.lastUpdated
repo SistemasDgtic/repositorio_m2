@@ -1,0 +1,8 @@
+#NOTE: This is an internal implementation file, its format can be changed without prior notice.
+#Thu Sep 20 12:12:31 CDT 2012
+default-http\://repo1.maven.org/maven2/.lastUpdated=1348161151809
+default-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1348161111783
+default-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1348161071753
+http\://repo1.maven.org/maven2/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.core\:pom\:3.1.0.RELEASE from/to central (http\://repo1.maven.org/maven2)\: Connect times out
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.core\:pom\:3.1.0.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Connect times out
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework.security\:org.springframework.security.core\:pom\:3.1.0.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Connect times out
