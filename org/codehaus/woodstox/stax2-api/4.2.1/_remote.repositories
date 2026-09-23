@@ -1,3 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:14 CST 2025
+#Tue Apr 14 15:27:04 CDT 2026
+stax2-api-4.2.1.pom>mirror1=
+stax2-api-4.2.1.jar>central=
 stax2-api-4.2.1.pom>central=
+stax2-api-4.2.1.jar>mirror1=

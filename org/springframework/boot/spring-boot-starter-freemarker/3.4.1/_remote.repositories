@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:02 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 spring-boot-starter-freemarker-3.4.1-sources.jar>central=
 spring-boot-starter-freemarker-3.4.1.jar>central=
+spring-boot-starter-freemarker-3.4.1.jar>mirror1=
 spring-boot-starter-freemarker-3.4.1.pom>central=
+spring-boot-starter-freemarker-3.4.1.pom>mirror1=

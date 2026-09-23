@@ -1,0 +1,1153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <tools>
+      <tool>
+        <vendor>OWASP Foundation</vendor>
+        <name>CycloneDX Maven plugin</name>
+        <version>2.7.9</version>
+        <hashes>
+          <hash alg="MD5">8e595cdb67f17e4b41e046456970591d</hash>
+          <hash alg="SHA-1">69e8ca804520d09ce4657e7235bae84d01cbffa6</hash>
+          <hash alg="SHA-256">aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8</hash>
+          <hash alg="SHA-512">1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b</hash>
+          <hash alg="SHA-384">b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c</hash>
+          <hash alg="SHA3-384">289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c</hash>
+          <hash alg="SHA3-256">32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474</hash>
+          <hash alg="SHA3-512">1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df</hash>
+        </hashes>
+      </tool>
+    </tools>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-parent@4.0.6?type=pom">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-parent</name>
+      <version>4.0.6</version>
+      <description>Open source Implementation of Jakarta XML Binding (formerly JSR-222)</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-parent@4.0.6?type=pom</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git</url></reference></externalReferences>
+    </component>
+    <properties>
+      <property name="maven.goal">makeAggregateBom</property>
+      <property name="maven.scopes">compile,provided,runtime,system</property>
+      <property name="maven.reproducible">enabled</property>
+    </properties>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-bom@4.0.6?type=pom">
+      <group>org.glassfish.jaxb</group>
+      <name>jaxb-bom</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/org.glassfish.jaxb/jaxb-bom@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-bom-ext@4.0.6?type=pom">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-bom-ext</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-bom-ext@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-external-parent@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-external-parent</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-external-parent@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind.external</group>
+      <name>relaxng-datatype</name>
+      <version>4.0.6</version>
+      <description>RelaxNG Datatype library.</description>
+      <hashes>
+        <hash alg="MD5">a2d2c1defb7b05c22f21391c17a49a67</hash>
+        <hash alg="SHA-1">b025edfde3e9dd0a94e37dc964d39bd599e9ef98</hash>
+        <hash alg="SHA-256">664e7ca7b856693b0f40a1eb8064332f1f41a568fbeddea832ae393a9b2e5a2f</hash>
+        <hash alg="SHA-512">a6c7a46864fc64721e590d1e91cee98666a55e4a5b63663ef298d41baa836f9b220977daaf930451a18ad418a4cfb7b2b3118e87a3807916bc30812b65ac1665</hash>
+        <hash alg="SHA-384">32fa75ebb0665e7a3f10840a9e97ebe8eede282e926cecef98cbaac3fa6bdacec479ee9610294c8b6508e11acbc212f4</hash>
+        <hash alg="SHA3-384">d815ba9b9b561bc9b5cf80bae504210e498c882e3a9896acf1506dd03f3e7254ed6a2de40a19138c13134167c464a2dd</hash>
+        <hash alg="SHA3-256">4c114d471688bfb9d8eacfa89836ebc09e54247ac7c094aca0b64750aace9b61</hash>
+        <hash alg="SHA3-512">2256575aa4444235e0d60b65ccef9927722ea3f7b9e07b2e990815339f34c07ecac96213757ec7e1824b812d5e4fd0ffec234341a5180989b736dc8179c66049</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/ee4j/jaxb-external-parent/relaxng-datatype</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar">
+      <group>com.github.relaxng</group>
+      <name>relaxngDatatype</name>
+      <version>2011.1</version>
+      <description>Sonatype helps open source projects to set up Maven repositories on https://oss.sonatype.org/</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">faa91f2e1445c3d72c9ee44a35c511dd</hash>
+        <hash alg="SHA-1">6038cefcc6ff15bb44ad5d18217d0572059389ef</hash>
+        <hash alg="SHA-256">5201abd85650d63354148d56f1c3e479ba9704281bf2c6058fb8e5e919c434d7</hash>
+        <hash alg="SHA-512">4ca5006bce00e79bd4ba28782310788dfbcde665cf165acf273066ac84ee28ebb0311ca27ace33f6dc42ab304639b99e30f9f50d2f99806277496a7c915f3656</hash>
+        <hash alg="SHA-384">31853994c27a1db5516f0fa780c0432a2c521fd6e7c579ad39f9ad507eba8d27b4a8454171c25486bb4ee38f3b45f55a</hash>
+        <hash alg="SHA3-384">c2b3e4e48fee73914162144751e87c0306f6358666cf82ff31c34c6c77776f86485aab245903408420def956d8e2d4a0</hash>
+        <hash alg="SHA3-256">dd42ffdd97a3848e11a4f633414c40396960652429a2b4f835b552a6233ee5e1</hash>
+        <hash alg="SHA3-512">f4258e9e1d4a7ed2fd6707e53e11f21637fccf3c89f149e076b545a7c11096c74a95a8bb286574d6d443691496c5b830322ff1a5d8cec9aa5b4317c0db7e4c23</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-4-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://github.com/java-schema-utilities/relaxng-datatype-java</url></reference><reference type="distribution"><url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="vcs"><url>http://github.com/java-schema-utilities/relaxng-datatype-java</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/junit/junit@4.13.2?type=jar">
+      <publisher>JUnit</publisher>
+      <group>junit</group>
+      <name>junit</name>
+      <version>4.13.2</version>
+      <description>JUnit is a unit testing framework for Java, created by Erich Gamma and Kent Beck.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">d98a9a02a99a9acd22d7653cbcc1f31f</hash>
+        <hash alg="SHA-1">8ac9e16d933b6fb43bc7f576336b8f4d7eb5ba12</hash>
+        <hash alg="SHA-256">8e495b634469d64fb8acfa3495a065cbacc8a0fff55ce1e31007be4c16dc57d3</hash>
+        <hash alg="SHA-512">a31b9950f929a7e5a600d89787ef40e42a8a8e2392e210d0c0f45b3572937670a18a524f1815508cd1152cd1eaa7275cb7430ba45c053be365c83c231bccd3f0</hash>
+        <hash alg="SHA-384">9f85c56a77c699eb87630b9e8224068a34c296bcd9aadb52248dd4665036f5bf1048fe75e5cb590b59e7855ca716acae</hash>
+        <hash alg="SHA3-384">590cfd9396424583879ca8ad732870406bab18325ac72fb2bbe188b9611278d6341700badf7cfc32525b8ff42900c905</hash>
+        <hash alg="SHA3-256">a06b3fd2fd1d9f4306b58125484e3605a395afe5ffe2c801e43ae462f366a430</hash>
+        <hash alg="SHA3-512">a6d25ce3c14f9065f06dfd0e68e1dad5c03bd5de0a302c44ca4733d2cb87ec1bc6f0abd36d65aeee8caf328b6881432c4b682fa4b4b1fa931c3c950de5129fb2</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>EPL-1.0</id>
+          <url>http://www.eclipse.org/legal/epl-v10.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/junit/junit@4.13.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://junit.org</url></reference><reference type="build-system"><url>https://github.com/junit-team/junit4/actions</url></reference><reference type="distribution"><url>https://github.com/junit-team/junit4/wiki/Download-and-Install</url></reference><reference type="issue-tracker"><url>https://github.com/junit-team/junit4/issues</url></reference><reference type="vcs"><url>https://github.com/junit-team/junit4</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar">
+      <group>org.hamcrest</group>
+      <name>hamcrest-core</name>
+      <version>1.3</version>
+      <description>This is the core API of hamcrest matcher framework to be used by third-party framework providers. This includes the a foundation set of matcher implementations for common operations.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6393363b47ddcbba82321110c3e07519</hash>
+        <hash alg="SHA-1">42a25dc3219429f0e5d060061f71acb49bf010a0</hash>
+        <hash alg="SHA-256">66fdef91e9739348df7a096aa384a5685f4e875584cce89386a7a47251c4d8e9</hash>
+        <hash alg="SHA-512">e237ae735aac4fa5a7253ec693191f42ef7ddce384c11d29fbf605981c0be077d086757409acad53cb5b9e53d86a07cc428d459ff0f5b00d32a8cbbca390be49</hash>
+        <hash alg="SHA-384">4b5297d2a12cc32b824153afc83f1ba9f1869ca288330f0a2f759659d09e4c420eb6ba4a1efbfa0657b625edd41293d5</hash>
+        <hash alg="SHA3-384">b14d34985c0a78cf0ba19b5a18bffd403e08adcb2afde228ddef6e16121c7046dbebf58c04d3419311c4496c48aa93be</hash>
+        <hash alg="SHA3-256">f679af77deedf69b3c3066f7916583848c6fd32a950f9c0b0e2ef1da121717ba</hash>
+        <hash alg="SHA3-512">bca821931e438a1977b7b4356b5f8cebf485634f82159d505c48267c34e6a0f4fde9c2917331365f66dc0e52e2ca3a2db5256863584110c27ecebefc28741f63</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference><reference type="vcs"><url>https://github.com/hamcrest/JavaHamcrest/hamcrest-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind.external</group>
+      <name>rngom</name>
+      <version>4.0.6</version>
+      <description>RNGOM is a RelaxNG Object model library (XSOM for RelaxNG).</description>
+      <hashes>
+        <hash alg="MD5">7f46ced3786f37c64cb46512032f2535</hash>
+        <hash alg="SHA-1">e284ac6a66c9184bc0beaf0aadfbfa5371e6eb66</hash>
+        <hash alg="SHA-256">78c4d1e100b55b1990af14d9e9fc70f8a6995436acd9e78f3c7cb91b25fdabbe</hash>
+        <hash alg="SHA-512">35b1c244957c4d9abb11f07d43a5d975427f9d528c1914a87027532c4adecee2c9f81500efc4730bcac8be935ebee430a82f52df33282160240b568fcaa34258</hash>
+        <hash alg="SHA-384">26663761c3fe6bb19e3398c059bb921cf28132981a374d013d36015d916d5a8f349fd7f25e08aea54c4d27d09eb77902</hash>
+        <hash alg="SHA3-384">ade8d819d4d7dc0f8fc3e327fa9c88d197310b6b68a8e146009dee86061d4874da02cb4da1cd58096e9c2216ad22ea92</hash>
+        <hash alg="SHA3-256">6fdc108c8a177be8535c4341f63894717ea9707be988fa0025adef60c3c32ac0</hash>
+        <hash alg="SHA3-512">4b7d9312978f0d339abf9a40740f9efcdedca0fe71783257bce727f57a32ea2ce1241d9ac0115125c2c1f62386ab0158c5797cb13343d820652706677e7ecd77</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/ee4j/jaxb-external-parent/rngom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>xsom</name>
+      <version>4.0.6</version>
+      <description>XML Schema Object Model (XSOM) is a Java library that allows applications to easily parse XML Schema
+        documents and inspect information in them. It is expected to be useful for applications that need to take XML
+        Schema as an input.</description>
+      <hashes>
+        <hash alg="MD5">5be2c301e3bb0655ab30265eb9e7c97d</hash>
+        <hash alg="SHA-1">b250eca67bafd0e947d0da4f00a7856aeb83b247</hash>
+        <hash alg="SHA-256">e439ed31d7c262f6fad4dc036b32d63f294b180ec215772ba7ccf05c3d2f2700</hash>
+        <hash alg="SHA-512">88ddb6c833d1cfeb86901ee14cee4fe6da59078bd1e63ff56dd64fd3cb63f3d86c0427f97f638a4a416c2ca782049bd201c2b8f4e04e2ec5aa9c019c6320532e</hash>
+        <hash alg="SHA-384">77899091408cd4cb8b3e22e688db866a70c00342842a8fcaf38462409dc1cb64044587a7fa73a72693bc2304e4f22e6e</hash>
+        <hash alg="SHA3-384">64b7e65fe0b5306d0bf7c6a132132e4c3a5d52bc950233fc5b3fae78a8dc3ebadfc2f1b8979f9063619990ef9814243d</hash>
+        <hash alg="SHA3-256">0ed5b9f2c27e50f68f0d4eaaec9e1b7c2301f56fe0a4a7a26b1eabf021a87ade</hash>
+        <hash alg="SHA3-512">4182c8892ce0ce16c20466cf41b9e87e7ae1dd39f2da384c807fe18f043bd147e066fae0458b7100d27f3dc372245cec7c64b72ceeee5bef89decb5028cb69d1</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/ee4j/xsom</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-txw-parent@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-txw-parent</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-txw-parent@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>txw2</name>
+      <version>4.0.6</version>
+      <description>TXW is a library that allows you to write XML documents.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-codemodel-parent@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-codemodel-parent</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-codemodel-parent@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>codemodel</name>
+      <version>4.0.6</version>
+      <description>The core functionality of the CodeModel java source code generation library</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/ee4j/jaxb-codemodel-parent/codemodel</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/txwc2@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>txwc2</name>
+      <version>4.0.6</version>
+      <description>JAXB schema generator.The *tool* to generate XML schema based on java classes.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/txwc2@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txwc2</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.ant</group>
+      <name>ant</name>
+      <version>1.10.14</version>
+      <description>master POM</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">263e00d844d0e4efa54440ec5ed6362a</hash>
+        <hash alg="SHA-1">1edce9bbfa60dfd51f010879c78f4421dafae7a7</hash>
+        <hash alg="SHA-256">4cbbd9243de4c1042d61d9a15db4c43c90ff93b16d78b39481da1c956c8e9671</hash>
+        <hash alg="SHA-512">9fa6296d1d224e16e6d0ae270e128098d480f8b54dee3deb13d348bf033fa621498dfdafea61d84f0b4710d12c21a42f05be076ddce385754879c8782a333c4e</hash>
+        <hash alg="SHA-384">0f2bae9975d540c9c01872b1f5ff8f8888c2976e1f75e69c7b34175f3bfa9134605c35146f023d7ef9bcb4d6f136ed58</hash>
+        <hash alg="SHA3-384">280026cf5236e14efcbc64e5d4524d260495061f1f47b1f9d6345d77c74db71d334572a975506e2310e3bead325974d9</hash>
+        <hash alg="SHA3-256">7167898eebe3239ace0f86b116ada1314111741eb69832668827c2e398ccac8a</hash>
+        <hash alg="SHA3-512">c6f7c44dd307a999216e327efa7c001ce4f2c4ea400bd6f5b6be5b09f09d81f51aef67c9bcaa0aea7cf257fcd8de7198b9a5b151c305a9a04ca0f20b5c16c64c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.ant/ant@1.10.14?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.ant</group>
+      <name>ant-launcher</name>
+      <version>1.10.14</version>
+      <description>master POM</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">0e6c71b2f05383e1fb891e99f5267663</hash>
+        <hash alg="SHA-1">8d2268288496b0541a2640f2ee07fe3de1a02301</hash>
+        <hash alg="SHA-256">f0909725a7a24e393888f3fbb558347abf506ce2f7ebc581ff26331b94d951a5</hash>
+        <hash alg="SHA-512">11253b888efb900b34f12288f78136a2ef28c889afdfc12fd2fd5a38ea18b648cfa90dffe283b2c8266a2166cc43dd40a01050e6616ec391c71864b2204d2d88</hash>
+        <hash alg="SHA-384">ef0efd42803c505ae7fbfbe79302c29b99af8c1d5e7bdb022f93a89b5272a2f154d4beb7724effdeea0d6738cb7711b3</hash>
+        <hash alg="SHA3-384">9e21cd11c628201c7b32daac116d8043e207d36cee9e3da668600991e2b6175ee1ef7c74565c659bb69cb8e8860af7ee</hash>
+        <hash alg="SHA3-256">9205c89cf3b4ab21fcfe7fe8f31e0186c8228d39c7b06aace982b6a1ed09213e</hash>
+        <hash alg="SHA3-512">22a891ba3141fc834a28dd07aba3309dff3bf8fa26ea537bfdda06c681847f2c5fcea72c156f839aeba028ec949624992e0e0a9a2320a2c65faf16834bb8ae44</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://ant.apache.org/</url></reference><reference type="build-system"><url>https://builds.apache.org/job/Ant-Build-from-POMs/</url></reference><reference type="distribution"><url>https://nowhere.net/</url></reference><reference type="issue-tracker"><url>https://issues.apache.org/bugzilla/</url></reference><reference type="mailing-list"><url>https://mail-archives.apache.org/mod_mbox/ant-dev</url></reference><reference type="vcs"><url>https://gitbox.apache.org/repos/asf/ant.git/ant-launcher</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/codemodel-annotation-compiler@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>codemodel-annotation-compiler</name>
+      <version>4.0.6</version>
+      <description>The annotation compiler ant task for the CodeModel java source code generation library</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/codemodel-annotation-compiler@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/ee4j/jaxb-codemodel-parent/codemodel-annotation-compiler</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>jaxb-core</name>
+      <version>4.0.6</version>
+      <description>JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.xml.bind</group>
+      <name>jakarta.xml.bind-api</name>
+      <version>4.0.4</version>
+      <description>Jakarta XML Binding API</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">6dd465a232e545193ab8ab77cc4fbdb9</hash>
+        <hash alg="SHA-1">d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc</hash>
+        <hash alg="SHA-256">c507ca69a8c6dd11bf4afeec9e0d412c4fa3933fffb0a84680ea5727e8472124</hash>
+        <hash alg="SHA-512">18b9b21b51b46068c3e3e4a74241d0649e56512aa471f2c9076583e366096739e8566682527eb25a735a10337f0c5b54797f995dfb254b7ed631548fe8a095f1</hash>
+        <hash alg="SHA-384">63bd1b70b429b5defe2331625a570943637808394efc7e8a27051422ee0494d74a79b4295c620f532e366f4b473fdd51</hash>
+        <hash alg="SHA3-384">15d5318671cf9676f294b1f68092d3ead4817a83c3c915d270f039671df602d1c038c8e8ce9dec2096a2a19e75265c2e</hash>
+        <hash alg="SHA3-256">d860ce7928b8ad4be47a636d0c03982431c2f8029b4a135c564ad53b8cf80f86</hash>
+        <hash alg="SHA3-512">ccb6c58aa4f9617721fd7b21ae73a62ca95a203a06414814db9d103b4a140b70564872e6898542841c920cd27da3c29b18dfe1bc57042439d7755e599d7b0a4d</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jakartaee/jaxb-api/jakarta.xml.bind-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jakartaee/jaxb-api/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-dev</url></reference><reference type="vcs"><url>https://github.com/jakartaee/jaxb-api.git/jakarta.xml.bind-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>jakarta.activation</group>
+      <name>jakarta.activation-api</name>
+      <version>2.1.4</version>
+      <description>Jakarta Activation API 2.1 Specification</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">bc1602eee7bc61a0b86f14bbbb0cc794</hash>
+        <hash alg="SHA-1">9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8</hash>
+        <hash alg="SHA-256">c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004</hash>
+        <hash alg="SHA-512">cd078772acb5ebf1f90f7c737f372b7e86a5ce31b995ed759526a9eee73fd89f97e506f9a208ba3b73e757cb78830b829733411cf7989680aea2272abba7323b</hash>
+        <hash alg="SHA-384">0b9a413939a024f562c15e60b11f85c336620987441fb053645499704960464d01ae83e9989b43ae6cd4f2164eb0cebe</hash>
+        <hash alg="SHA3-384">d2fa51a3e18ced20f097ae019982cbd945942103df59327f319c64eeef1c109d6262d1de332fa2b6dfde41c98a9e7b2c</hash>
+        <hash alg="SHA3-256">b259d17f48ae1f357a28b9c33b66fbcae50eaa86d61ac3c8cbc5184e7914d2d5</hash>
+        <hash alg="SHA3-512">aae6a55fe1fa397b13b1bcb5a05ccc3e4e87049865233482dc09a8ab2af3eb128646394e3ef529609031e7c6c2215c91ffd27de06cd97ca9ae7e07bd4b9595bd</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/jakartaee/jaf-api</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/jakartaee/jaf-api/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/jakartaee/jaf-api</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.eclipse.angus</group>
+      <name>angus-activation</name>
+      <version>2.0.3</version>
+      <description>Angus Activation Registries Implementation</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">ad20392145690b36b4f950fe31a31a2a</hash>
+        <hash alg="SHA-1">7f80607ea5014fef0b1779e6c33d63a88a45a563</hash>
+        <hash alg="SHA-256">a6bd35c538cf90fff941ad6258c40c08fca0b5c9c3f536c657114f27ce0527a7</hash>
+        <hash alg="SHA-512">efb987b781f665589b2a524d86826ffcf37eaf105b2f823be124fded85bd118098c0749b5d268373d00b1d3b8bf0f89f86670444f9990b91948704a7052376e1</hash>
+        <hash alg="SHA-384">4086b356cdf168e28a09dfa2ee9cd54926491438d556e4608508ae6a895929adf63f3a259779c83624a9bb1f886efb6d</hash>
+        <hash alg="SHA3-384">7b79721ec0b28964fad4bf56ffc3be67d81b62e45a4ac703917094e281c125834b9bebcc0623176d4904c5b50c94450e</hash>
+        <hash alg="SHA3-256">aecadbd33e92abf894ae28c8cc609f5f85e8af736621c44fb71b84ca34e91247</hash>
+        <hash alg="SHA3-512">ebdc07c3b3cf0817f6d9ee54bb23461657f213648b70f6c7f634a1028cdf1522d5b5a7e2168130f72afa112f36cb08858d1c94bb67b40a0f051f567b4d696d1e</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/angus-activation/angus-activation</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/angus-activation/issues/</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/angus-activation/angus-activation</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.istack</group>
+      <name>istack-commons-runtime</name>
+      <version>4.1.2</version>
+      <description>istack common utility code</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">535154ef647af2a52478c4debec93659</hash>
+        <hash alg="SHA-1">18ec117c85f3ba0ac65409136afa8e42bc74e739</hash>
+        <hash alg="SHA-256">7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee</hash>
+        <hash alg="SHA-512">c3b191409b9ace8cccca6be103b684a25f10675977d38f608036ffb687651a74fd4581a66e1c38e588e77165d32614e4b547bff412379f7a84b926ccb93515bb</hash>
+        <hash alg="SHA-384">9b8e20b08b109c485c654359ede00fcef74d85ac18f9c7978acd47bf630838d21ea193f79d144e66cf0f6992efd82ff8</hash>
+        <hash alg="SHA3-384">81c4cf19a5d0f078263cc8f9320d4208da28e25b93c1f45885e237148a3a7c7266ba7586a1eb5cd3efc86be6f90082bc</hash>
+        <hash alg="SHA3-256">218aa7dd7bca7cfdbee752bb1c2737a7066b47058a42b4ee466a14350bcd2741</hash>
+        <hash alg="SHA3-512">74770476681a130a3057fdfa2df3977b8aa9bbf1a520d9481694d0e9e0635c2e88d74ff73bbb870de34d93d0a4b6eae7f030e4ba12fbcc51debde58897fdcb6c</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-runtime</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-runtime-parent@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-runtime-parent</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-runtime-parent@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>jaxb-runtime</name>
+      <version>4.0.6</version>
+      <description>JAXB (JSR 222) Reference Implementation</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-runtime-parent/jaxb-runtime</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.jvnet.staxex</group>
+      <name>stax-ex</name>
+      <version>2.1.0</version>
+      <description>Extensions to JSR-173 StAX API.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">700a50c797db31429bf0c57b5adb8b55</hash>
+        <hash alg="SHA-1">33160568d70c01da407f8ba982bacf283d00ad4a</hash>
+        <hash alg="SHA-256">9f786ab52392106a53491bd1ddd8bd9028c95bb280e30387b70d498a8647cf35</hash>
+        <hash alg="SHA-512">3e86d83c63f746c8407c1aed7a1ad4f3b424094e1c7f858c8f19ca2903cf382310bf5f0645d3302c4b32bdde15ae4406305a2618697f37342a1801a6a0f159bc</hash>
+        <hash alg="SHA-384">2b35b5614c4af1ffd60f863f707b9a3d539a65cdf0cf6733c21994108f5d333417c05cc5e535fb8d7915a5d33d485381</hash>
+        <hash alg="SHA3-384">739a16a8035cbb5f08c6403ae2005b2b3afb423de2ffbf2161008ed3b1ab30ead8d13edd2a9388b4939ef214e78fa03c</hash>
+        <hash alg="SHA3-256">a20fff58b842e3dd46588576564da9356591695608b8edd50a402e9e33d35094</hash>
+        <hash alg="SHA3-512">08e87038a55b575147e2b8622090535354f14e7c5a9e3c31f2c2f436780e54c843ea89777e4b6bc357047c9c501d0863703470fde81be8e70bf5be97f3b0c706</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j/stax-ex</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-stax-ex/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-stax-ex</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.fastinfoset</group>
+      <name>FastInfoset</name>
+      <version>2.1.1</version>
+      <description>Open Source implementation of the Fast Infoset Standard for Binary XML (http://www.itu.int/ITU-T/asn1/).</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">60067f13107f9ecf95abcdf73859e47b</hash>
+        <hash alg="SHA-1">650c84348bbcf4461bd24d38e67f7a7ce687de24</hash>
+        <hash alg="SHA-256">75d6635e09101ef1545d9a59bb4d9524ec6bf15246540af5435750f271612765</hash>
+        <hash alg="SHA-512">964ef5eba0f6a7be5e4a9105e6748684618d5a4aad07818f681b7f1e9e74836113177e02194f042f5ccd32b45b1add8e048a4c761bacbab4923de52b9a0fd825</hash>
+        <hash alg="SHA-384">aa369b0cd5d1cdbeb5ba173226f04ca062e623ddadc9798d5d1f3bad3b65ffcb8362281ddff7c856f2a9cd6b9822acc3</hash>
+        <hash alg="SHA3-384">96848b3e4af52124abfd59a7a2c665572db88aa81e9f23f19d03039ff0d2f606df71df5b72567af7ced2f4a9f4394b6d</hash>
+        <hash alg="SHA3-256">54e1da17f7d18ea00b2e89c76bc1ecb461638fc663bdb434fd1c38a633472e00</hash>
+        <hash alg="SHA3-512">a1464f7a1eae780772e5233feb436d87fa8d97e15fd00f00ce6242d737eb03c491e747e7730e7485f96fadfeaeedb0d877e5bc821b976339a28cfc02435641da</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j.jaxb-impl/FastInfoset</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-fi/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-fi/FastInfoset</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>jaxb-xjc</name>
+      <version>4.0.6</version>
+      <description>JAXB Binding Compiler. Contains source code needed for binding customization files into java sources.
+        In other words: the *tool* to generate java classes for the given xml representation.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-xjc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.dtd-parser</group>
+      <name>dtd-parser</name>
+      <version>1.5.1</version>
+      <description>SAX-like API for parsing XML DTDs.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">1e89cc157bf2d23f0af9ef4ec89118cd</hash>
+        <hash alg="SHA-1">ea83eb8230febbd72c56f11c11bbd1c75a904c35</hash>
+        <hash alg="SHA-256">fd07c1b528e8649e956bd4c759a63badb79e8076260b5c23bdf37f2b11d06711</hash>
+        <hash alg="SHA-512">4af98dd47522df39bf6afdfd467488f68ce40ab725a9b6269987757caf67a9dd531da3945add0761fc9afd97263a6535f97fa46aed7df9b1b458c62584462725</hash>
+        <hash alg="SHA-384">c416dd82fa8f4fc9217550e991df9a2a53f71a5317e7559e11a55a23fd6fc6ad347818a2dff07ae4e23929c83841accc</hash>
+        <hash alg="SHA3-384">bc37996d3e16a282e453de8370374144717388244d752f0be4971efcfab241e5b1aa21473ad85d035cde7f2b354061d2</hash>
+        <hash alg="SHA3-256">a73949822a2e1ef4ecdabbbae109a54b4cbd43004dee201070ab20e4b482cf10</hash>
+        <hash alg="SHA3-512">7a680a1db3f093833c7c8eb2f10ce360bbcb471413de6fb4a9e3fa4a657312ed761960b9dcff680e2175d7659af4e63b0df062638cf08d4726edddcc32d68dce</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://github.com/eclipse-ee4j/jaxb-dtd-parser</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-dtd-parser/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-dtd-parser</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.istack</group>
+      <name>istack-commons-tools</name>
+      <version>4.1.2</version>
+      <description>istack common utility code</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">53590bcdfeafccd31d1d1bc791af1555</hash>
+        <hash alg="SHA-1">585c1af261fbc0b0cccf72f4d6c5ff11c1e596b1</hash>
+        <hash alg="SHA-256">85b4fe7ad6fdfc64a586133f039d3de7b51db2c8111a1aa98a267891e27f386f</hash>
+        <hash alg="SHA-512">63699c5692d3e7bba62bba01fbe32f020432b521ce148819029723b090575d93de12dc1b81537d00da84320aa571df7865e54317589c0570fae849689570f58a</hash>
+        <hash alg="SHA-384">4f9ce771c893ba4b8341350657d0f4d864ea0dc2ce7b9c3a3c80cd3466cd5043a4b9c98fee86804139e1025d77ddf7f2</hash>
+        <hash alg="SHA3-384">b39294965f71d81e0ad3f81b3cc4f9534f0a9a129613f23425d7b0e9d928744f5542ad9eac722363f920652e10792ff0</hash>
+        <hash alg="SHA3-256">5d39ea2ef492dd0d7ad49cf0873a0a2797a36e0f0362fca23bd501874ceb3158</hash>
+        <hash alg="SHA3-512">bcf719aee10e3dc170de49f89284e92bf2b3d28adcdccbae67dcfe094073955b68aedf7f2709be2e46235a255f1f50e746ca7428dbb2bd65a988a5f771076089</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-tools</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/issues</url></reference><reference type="mailing-list"><url>https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-tools</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>jaxb-jxc</name>
+      <version>4.0.6</version>
+      <description>JAXB schema generator.The *tool* to generate XML schema based on java classes.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-jxc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.checkerframework/compiler@2.4.0?type=jar">
+      <group>org.checkerframework</group>
+      <name>compiler</name>
+      <version>2.4.0</version>
+      <description>The Type Annotations Compiler is a fully backwards compatible customization
+        of the Open JDK javac compiler with additional support for type annotations.</description>
+      <scope>optional</scope>
+      <hashes>
+        <hash alg="MD5">7d0c67b38cea773dfd6817e1ebcd23f7</hash>
+        <hash alg="SHA-1">7e0d09e36c241636cc656755199a6e1c665701ed</hash>
+        <hash alg="SHA-256">49100e746898bc8058ea0d2d004ee62a6531c81c686414d49879e93627d30dc8</hash>
+        <hash alg="SHA-512">d2369f2d2e5a60d25918e61e2d8dcd3544b08dfa77ad786b4ca39563f24e6b9f6ab7f2e571599b1dc588076674753b5a0ffafe752816f0330b345e0857747f40</hash>
+        <hash alg="SHA-384">81cb4a8dbaa0c198bc5d9ed52159446e1cc674b5cfb36f7bd96c6e8fedbb40622e1e97504cd8732f8e16c22c5405191d</hash>
+        <hash alg="SHA3-384">e2db302c891f1762f807b3037fe857b86aac56cf2f334505489d48a28841b62f24b049bca1a2365d184577d94563be1e</hash>
+        <hash alg="SHA3-256">33a3ff5bfe74c28f206c047dde12da30463388ed8323f4e2f94810a95b8c89c9</hash>
+        <hash alg="SHA3-512">5c630c60c9d69760918c7ce6861152752cdfba0395098a197672f31a7dfa52e3e046756a6e63c0a136dce2cb8a855afeb2ea50344514e743002e9360238051b5</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <name>GNU General Public License, version 2 (GPL2)</name>
+          <url>http://www.gnu.org/licenses/gpl-2.0.html</url>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.checkerframework/compiler@2.4.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://checkerframework.org/jsr308/</url></reference><reference type="vcs"><url>https://bitbucket.org/typetools/jsr308-langtools/</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/osgi-tests@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>osgi-tests</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/osgi-tests@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-parent</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-parent</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.junit4osgi@1.0.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.felix</group>
+      <name>org.apache.felix.ipojo.junit4osgi</name>
+      <version>1.0.0</version>
+      <description>Apache Felix is an OSGi implementation.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">42418ef16e2fc7cb3dfffd6c3260a780</hash>
+        <hash alg="SHA-1">e9f3680de118ee9ff20c16882a98fa376ba876e8</hash>
+        <hash alg="SHA-256">958efa290c3fd443172c9622e673c76ae3f185c78358e2444f368cb6990b1884</hash>
+        <hash alg="SHA-512">77dd59d1ac370a248084ba5c39a7b9f3aa14ed35bfb9ac26e2ccc61eafc975eae4e76f386712f8e7dbff3e67df76faff95f3bef8b9104d53c591e0b32c1136c6</hash>
+        <hash alg="SHA-384">c56a04ac2710d02f6350c6e571ec263d47d7ef468d126dfd6036384bc037be755b6c0d3dd29ddd3947ff2d43a043741b</hash>
+        <hash alg="SHA3-384">cc100d54a33e5028c33f6b725399468a22b5a7518a6d68b6aedaf4e51661bfc94a6d6c0239fffca292828b859a0c62cf</hash>
+        <hash alg="SHA3-256">3b44dd654aa75fa48b005047d1b6c63ff47ea68064b4d3ef18babce7487e784c</hash>
+        <hash alg="SHA3-512">ba1beaa07ca783b147212713c8991141f4ebe9b65a13411eaf8e8c65dbe4ece73ec5ac8cfb824303cdbad10fe3101cfa5fb8eaab971c3e77975f0e870f322cbb</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.felix/org.apache.felix.ipojo.junit4osgi@1.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://felix.apache.org/org.apache.felix.ipojo.junit4osgi/</url></reference><reference type="distribution"><url>https://repository.apache.org/service/local/staging/deploy/maven2</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/FELIX</url></reference><reference type="mailing-list"><url>http://www.mail-archive.com/dev%40felix.apache.org/</url></reference><reference type="vcs"><url>scm:svn:https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.ipojo.junit4osgi-1.0.0</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.metadata@1.2.0?type=jar">
+      <publisher>The Apache Software Foundation</publisher>
+      <group>org.apache.felix</group>
+      <name>org.apache.felix.ipojo.metadata</name>
+      <version>1.2.0</version>
+      <description>Apache felix is an OSGi implementation.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">8aae43293f88c249e2bad89660b45159</hash>
+        <hash alg="SHA-1">2d83028d5aaf334777701fa2da2e47941f1a20b1</hash>
+        <hash alg="SHA-256">400e7d54eae7ead0c223250a9636f9dcb95bb99f17a4e47a48579de21f68d640</hash>
+        <hash alg="SHA-512">7d3cab50448616148746e81384bca8623f2b420d093f0762f2885d6dbd9a2556a7477617e95772b8ac7d6b0287a2a7f2ca8d2f5946178408d301eb2e9fd406ee</hash>
+        <hash alg="SHA-384">245da2183b9ae59f9ba0d0ac9bbdc432e193a4c98f17340b259a184ab40823d6f175216cedd549bd4b02ff919fc4604d</hash>
+        <hash alg="SHA3-384">05bca410e3002bff938a3d03ead3875e21892b6d10f6e3742324fcc20dc98832772524e2aa23b9bf1a83befda44bfbe5</hash>
+        <hash alg="SHA3-256">a87f307ab822ef5e8cd63ec173d26c694f7835d89204fd6e692d9ac94ecc3d18</hash>
+        <hash alg="SHA3-512">cdce5f2e91b2c083c427351186b5fc9e66d51530aa13c675c333cd0632cefd5d86f509540962915ef4cb97d97b2d7aadaca5ac8ea4dee5a37b0c54c2d8f23f6a</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.apache.felix/org.apache.felix.ipojo.metadata@1.2.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://felix.apache.org/org.apache.felix.ipojo.metadata/</url></reference><reference type="distribution"><url>scp://people.apache.org/www/people.apache.org/repo/m2-ibiblio-rsync-repository</url></reference><reference type="issue-tracker"><url>http://issues.apache.org/jira/browse/FELIX</url></reference><reference type="mailing-list"><url>http://www.mail-archive.com/dev%40felix.apache.org/</url></reference><reference type="vcs"><url>scm:svn:https://svn.apache.org/repos/asf/felix/releases/org.apache.felix.ipojo.metadata-1.2.0</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.osgi/osgi.core@6.0.0?type=jar">
+      <publisher>OSGi Alliance</publisher>
+      <group>org.osgi</group>
+      <name>osgi.core</name>
+      <version>6.0.0</version>
+      <description>OSGi Core Release 6, Interfaces and Classes for use in compiling bundles.</description>
+      <scope>required</scope>
+      <hashes>
+        <hash alg="MD5">cae291c61fe8b7a4476d713550c7ff49</hash>
+        <hash alg="SHA-1">0c49acdc9ac62cf69ee49cb6f1905b4fdb79ea5c</hash>
+        <hash alg="SHA-256">1c1bb435eb34cbf1f743653da38f604d45d53fbc95979053768cd3fc293cb931</hash>
+        <hash alg="SHA-512">a6d5388804982ab2cb0ba82b4291e73f006577c54e5dcb0675a2c4922594ddb0265810a4e7c748c88eba76ee350340376b7a9bd25d2de3afb954cf89117cd470</hash>
+        <hash alg="SHA-384">8daff91fc229b2874c1ff7a214fdee65b1824fbac76eb7feec609c5b70ab2fd24fc5cf017b339788a5c7aec041ec1a1c</hash>
+        <hash alg="SHA3-384">b921d8bea5dab6e7d827ce49a43e6edb4a15c1402e1d70498faf867bd7e9ea61f47b9cbdbf008ed517b71499c02b9e4c</hash>
+        <hash alg="SHA3-256">5836efac64dd3757498bc6648cf02e46f136c6b0b39d5f1641218459d6b68ca0</hash>
+        <hash alg="SHA3-512">9056edfc04943cdc81041db1851cade670415457221617babeb3d3c5136c3dcc303862e55b545f40584477e0654d11d84db6ede072015b08744241202d79ee63</hash>
+      </hashes>
+      <licenses>
+        <license>
+          <id>Apache-2.0</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.osgi/osgi.core@6.0.0?type=jar</purl>
+      <externalReferences><reference type="website"><url>http://www.osgi.org/</url></reference><reference type="vcs"><url>https://www.osgi.org/members/git/build.git</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-core@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-core</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-core@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-bundles@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-bundles</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-bundles@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-core</name>
+      <version>4.0.6</version>
+      <description>Old JAXB Core module. Contains sources required by XJC, JXC and Runtime modules with dependencies.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-runtime@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-runtime</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-runtime@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-runtime</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-impl</name>
+      <version>4.0.6</version>
+      <description>Old JAXB Runtime module. Contains sources required for runtime processing.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-xjc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-xjc</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-xjc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-xjc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-xjc</name>
+      <version>4.0.6</version>
+      <description>Old JAXB Binding Compiler. Contains source code needed for binding customization files into java sources.
+        In other words: the *tool* to generate java classes for the given xml representation.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-xjc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-jxc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-jxc</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-jxc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-jxc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-jxc</name>
+      <version>4.0.6</version>
+      <description>Old JAXB schema generator.The *tool* to generate XML schema based on java classes.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-jxc</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-docs-parent@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-docs-parent</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-docs-parent@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?type=pom">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-release-documentation</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=pom">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-samples</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-ri@4.0.6?type=pom">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-ri</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-ri@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?classifier=docbook&amp;type=zip">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-release-documentation</name>
+      <version>4.0.6</version>
+      <scope>required</scope>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?classifier=docbook&amp;type=zip</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=zip">
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-samples</name>
+      <version>4.0.6</version>
+      <scope>required</scope>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=zip</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-osgi@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-osgi</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-osgi@4.0.6?type=pom</purl>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind/jaxb-osgi@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind</group>
+      <name>jaxb-osgi</name>
+      <version>4.0.6</version>
+      <description>JAXB OSGI bundle</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind/jaxb-osgi@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-osgi/jaxb-osgi</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/org.glassfish.jaxb/osgi-test-osgi@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>org.glassfish.jaxb</group>
+      <name>osgi-test-osgi</name>
+      <version>4.0.6</version>
+      <description>Modules generate jars used for testing valid osgi manifests</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/org.glassfish.jaxb/osgi-test-osgi@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/tools/osgi-tests/osgi-test-osgi</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/tests@4.0.6?type=jar">
+      <publisher>Eclipse Foundation</publisher>
+      <group>com.sun.xml.bind.mvn</group>
+      <name>tests</name>
+      <version>4.0.6</version>
+      <description>Tests for JAXB RI OSGi bundles.
+        They should be in separate module because of dependency-hell of osgi and extra-osgi modules.</description>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/tests@4.0.6?type=jar</purl>
+      <externalReferences><reference type="website"><url>https://eclipse-ee4j.github.io/jaxb-ri/</url></reference><reference type="distribution"><url>https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/</url></reference><reference type="issue-tracker"><url>https://github.com/eclipse-ee4j/jaxb-ri/issues</url></reference><reference type="mailing-list"><url>https://accounts.eclipse.org/mailing-list/jaxb-impl-dev</url></reference><reference type="vcs"><url>https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-osgi/tests</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-www@4.0.6?type=pom">
+      <group>com.sun.xml.bind.mvn</group>
+      <name>jaxb-www</name>
+      <version>4.0.6</version>
+      <purl>pkg:maven/com.sun.xml.bind.mvn/jaxb-www@4.0.6?type=pom</purl>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-bom@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-bom-ext@4.0.6?type=pom"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-bom-ext@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-parent@4.0.6?type=pom"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-external-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-txw-parent@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-runtime-parent@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/osgi-tests@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-bundles@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-docs-parent@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=pom"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-txw-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txwc2@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-codemodel-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel-annotation-compiler@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/txwc2@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar">
+      <dependency ref="pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel-annotation-compiler@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"/>
+      <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar">
+      <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
+    <dependency ref="pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar">
+      <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-runtime-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar">
+      <dependency ref="pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+      <dependency ref="pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/osgi-tests@4.0.6?type=pom">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-runtime@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-osgi@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.junit4osgi@1.0.0?type=jar"/>
+      <dependency ref="pkg:maven/org.osgi/osgi.core@6.0.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.junit4osgi@1.0.0?type=jar">
+      <dependency ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.metadata@1.2.0?type=jar"/>
+      <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.apache.felix/org.apache.felix.ipojo.metadata@1.2.0?type=jar"/>
+    <dependency ref="pkg:maven/junit/junit@4.13.2?type=jar">
+      <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.hamcrest/hamcrest-core@1.3?type=jar"/>
+    <dependency ref="pkg:maven/org.osgi/osgi.core@6.0.0?type=jar"/>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-core@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-bundles@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-ri@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-osgi@4.0.6?type=pom"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"/>
+      <dependency ref="pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-runtime@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"/>
+      <dependency ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-xjc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar"/>
+      <dependency ref="pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-jxc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+      <dependency ref="pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-docs-parent@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?type=pom"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-www@4.0.6?type=pom"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?type=pom"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=pom"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-ri@4.0.6?type=pom">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?classifier=docbook&amp;type=zip"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=zip"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-release-documentation@4.0.6?classifier=docbook&amp;type=zip"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-samples@4.0.6?type=zip"/>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-osgi@4.0.6?type=pom">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-osgi@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.mvn/tests@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-osgi@4.0.6?type=jar">
+      <dependency ref="pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"/>
+      <dependency ref="pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar"/>
+      <dependency ref="pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar"/>
+      <dependency ref="pkg:maven/org.apache.ant/ant@1.10.14?type=jar"/>
+      <dependency ref="pkg:maven/com.github.relaxng/relaxngDatatype@2011.1?type=jar"/>
+      <dependency ref="pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-osgi@4.0.6?type=jar">
+      <dependency ref="pkg:maven/org.glassfish.jaxb/osgi-test-parent@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/tests@4.0.6?type=jar">
+      <dependency ref="pkg:maven/com.sun.xml.bind/jaxb-osgi@4.0.6?type=jar"/>
+    </dependency>
+    <dependency ref="pkg:maven/com.sun.xml.bind.mvn/jaxb-www@4.0.6?type=pom"/>
+  </dependencies>
+</bom>

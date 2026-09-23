@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 19:58:49 CDT 2026
+commons-compress-1.20.jar>mirror1=
+commons-compress-1.20.pom>mirror1=
+commons-compress-1.20.jar>central=
+commons-compress-1.20.pom>central=

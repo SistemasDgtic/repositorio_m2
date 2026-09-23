@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:52 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 FastInfoset-2.1.1-sources.jar>central=
 FastInfoset-2.1.1.jar>central=
+FastInfoset-2.1.1.jar>mirror1=
 FastInfoset-2.1.1.pom>central=
+FastInfoset-2.1.1.pom>mirror1=

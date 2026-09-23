@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:57 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 spring-security-web-6.4.2-sources.jar>central=
 spring-security-web-6.4.2.jar>central=
+spring-security-web-6.4.2.jar>mirror1=
 spring-security-web-6.4.2.pom>central=
+spring-security-web-6.4.2.pom>mirror1=

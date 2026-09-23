@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:29 CST 2025
+#Mon Mar 23 12:59:18 CST 2026
 snappy-0.4.jar>central=
+snappy-0.4.jar>mirror1=
 snappy-0.4.pom>central=
+snappy-0.4.pom>mirror1=

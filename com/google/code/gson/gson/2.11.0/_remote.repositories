@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Aug 06 14:13:27 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 gson-2.11.0-sources.jar>central=
 gson-2.11.0.jar>central=
+gson-2.11.0.jar>mirror1=
 gson-2.11.0.pom>central=
+gson-2.11.0.pom>mirror1=

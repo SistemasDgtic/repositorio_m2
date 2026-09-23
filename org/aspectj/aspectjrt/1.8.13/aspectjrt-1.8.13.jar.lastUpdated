@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:16 CDT 2026
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776731709088
+https\://maven.oracle.com/.error=Could not transfer artifact org.aspectj\:aspectjrt\:jar\:1.8.13 from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/org/aspectj/aspectjrt/1.8.13/aspectjrt-1.8.13.jar 403 Forbidden
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776733276062
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776733276161

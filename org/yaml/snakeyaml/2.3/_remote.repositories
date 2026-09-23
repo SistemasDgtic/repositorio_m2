@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:38 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 snakeyaml-2.3-sources.jar>central=
 snakeyaml-2.3.jar>central=
+snakeyaml-2.3.jar>mirror1=
 snakeyaml-2.3.pom>central=
+snakeyaml-2.3.pom>mirror1=

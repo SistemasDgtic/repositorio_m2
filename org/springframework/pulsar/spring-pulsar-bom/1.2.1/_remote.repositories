@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:01 CST 2025
+#Mon Mar 23 12:51:34 CST 2026
 spring-pulsar-bom-1.2.1.pom>central=
+spring-pulsar-bom-1.2.1.pom>mirror1=

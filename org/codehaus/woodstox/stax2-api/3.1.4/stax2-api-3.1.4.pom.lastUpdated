@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:29 CDT 2026
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776733289756
+https\://maven.oracle.com/.error=Could not transfer artifact org.codehaus.woodstox\:stax2-api\:pom\:3.1.4 from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/org/codehaus/woodstox/stax2-api/3.1.4/stax2-api-3.1.4.pom 403 Forbidden
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776733289659
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776733289894

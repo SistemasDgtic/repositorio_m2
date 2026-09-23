@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 17 14:25:30 CST 2025
+#Mon Mar 23 12:59:12 CST 2026
 netty-codec-dns-4.1.116.Final-sources.jar>central=
 netty-codec-dns-4.1.116.Final.jar>central=
+netty-codec-dns-4.1.116.Final.jar>mirror1=
 netty-codec-dns-4.1.116.Final.pom>central=
+netty-codec-dns-4.1.116.Final.pom>mirror1=

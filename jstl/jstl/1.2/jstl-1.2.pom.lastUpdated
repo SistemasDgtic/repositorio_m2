@@ -1,7 +1,7 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Thu Aug 04 12:44:27 CDT 2022
-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1659635067489
-https\://repo.maven.apache.org/maven2/.lastUpdated=1659635067636
-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1659635067251
-http\://repository.springsource.com/maven/bundles/external/.error=
-http\://repository.springsource.com/maven/bundles/release/.error=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 28 14:36:23 CDT 2026
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1777404983777
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1777404983781
+https\://repo.maven.apache.org/maven2/.lastUpdated=1777404983865
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact jstl\:jstl\:pom\:1.2 from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/jstl/jstl/1.2/jstl-1.2.pom
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact jstl\:jstl\:pom\:1.2 from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/jstl/jstl/1.2/jstl-1.2.pom

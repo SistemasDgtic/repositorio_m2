@@ -1,8 +1,8 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Tue Jan 21 13:24:58 CST 2025
-@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1737487498979
-@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1737487498992
-https\://repo.maven.apache.org/maven2/.lastUpdated=1737486823698
+#Wed Aug 19 12:29:30 CDT 2026
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1787160570207
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1787160570224
+https\://repo.maven.apache.org/maven2/.lastUpdated=1787160570599
 https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact org.springframework\:org.springframework.web\:pom\:4.3.0.RELEASE from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: Transfer failed for https\://code.lds.org/nexus/content/groups/main-repo/org/springframework/org.springframework.web/4.3.0.RELEASE/org.springframework.web-4.3.0.RELEASE.pom
 http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework\:org.springframework.web\:pom\:4.3.0.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/org/springframework/org.springframework.web/4.3.0.RELEASE/org.springframework.web-4.3.0.RELEASE.pom
 http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework\:org.springframework.web\:pom\:4.3.0.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/org/springframework/org.springframework.web/4.3.0.RELEASE/org.springframework.web-4.3.0.RELEASE.pom

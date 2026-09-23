@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Nov 21 12:38:44 CST 2025
+jakarta.xml.ws-api-4.0.1-sources.jar>central=
+jakarta.xml.ws-api-4.0.1.jar>central=
+jakarta.xml.ws-api-4.0.1.pom>central=

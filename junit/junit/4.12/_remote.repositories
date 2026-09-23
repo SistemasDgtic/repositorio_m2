@@ -1,3 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Feb 07 13:38:56 CST 2024
+#Mon Mar 23 18:19:26 CST 2026
+junit-4.12.jar>mirror1=
+junit-4.12.pom>mirror1=
+junit-4.12.jar>central=
 junit-4.12.pom>central=

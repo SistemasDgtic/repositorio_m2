@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Nov 19 18:47:59 CST 2025
+management-api-3.2.2-sources.jar>central=
+management-api-3.2.2.jar>central=
+management-api-3.2.2.pom>central=

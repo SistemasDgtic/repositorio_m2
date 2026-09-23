@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:29 CST 2025
+#Mon Mar 23 12:51:51 CST 2026
 plexus-utils-4.0.1.jar>central=
+plexus-utils-4.0.1.jar>mirror1=
 plexus-utils-4.0.1.pom>central=
+plexus-utils-4.0.1.pom>mirror1=

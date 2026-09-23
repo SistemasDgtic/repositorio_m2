@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jan 13 20:04:36 CST 2025
+#Mon Mar 23 12:51:51 CST 2026
 plexus-interpolation-1.26.jar>central=
+plexus-interpolation-1.26.jar>mirror1=
 plexus-interpolation-1.26.pom>central=
+plexus-interpolation-1.26.pom>mirror1=

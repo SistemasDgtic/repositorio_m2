@@ -1,7 +1,7 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Wed Jul 28 17:22:04 CDT 2021
-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1627510784954
-https\://repo.maven.apache.org/maven2/.lastUpdated=1627510924173
-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1627510784753
-http\://repository.springsource.com/maven/bundles/external/.error=
-http\://repository.springsource.com/maven/bundles/release/.error=
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 28 14:36:23 CDT 2026
+@default-com.springsource.repository.bundles.release-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1777404983002
+@default-com.springsource.repository.bundles.external-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1777404983014
+https\://repo.maven.apache.org/maven2/.lastUpdated=1777404983097
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact org.springframework\:spring-context\:pom\:4.3.0.RELEASE from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: Transfer failed for http\://repository.springsource.com/maven/bundles/external/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE.pom
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact org.springframework\:spring-context\:pom\:4.3.0.RELEASE from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: Transfer failed for http\://repository.springsource.com/maven/bundles/release/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE.pom

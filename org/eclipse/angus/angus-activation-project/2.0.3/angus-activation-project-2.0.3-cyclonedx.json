@@ -1,0 +1,575 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.angus",
+      "name" : "angus-activation-project",
+      "version" : "2.0.3",
+      "description" : "Angus Activation Project",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.angus/angus-activation-project@2.0.3?type=pom",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.angus/angus-activation-project@2.0.3?type=pom"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeAggregateBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      },
+      {
+        "name" : "maven.reproducible",
+        "value" : "enabled"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.angus",
+      "name" : "angus-activation",
+      "version" : "2.0.3",
+      "description" : "Angus Activation Registries Implementation",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "2.1.4",
+      "description" : "Jakarta Activation API 2.1 Specification",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bc1602eee7bc61a0b86f14bbbb0cc794"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "cd078772acb5ebf1f90f7c737f372b7e86a5ce31b995ed759526a9eee73fd89f97e506f9a208ba3b73e757cb78830b829733411cf7989680aea2272abba7323b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0b9a413939a024f562c15e60b11f85c336620987441fb053645499704960464d01ae83e9989b43ae6cd4f2164eb0cebe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d2fa51a3e18ced20f097ae019982cbd945942103df59327f319c64eeef1c109d6262d1de332fa2b6dfde41c98a9e7b2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b259d17f48ae1f357a28b9c33b66fbcae50eaa86d61ac3c8cbc5184e7914d2d5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aae6a55fe1fa397b13b1bcb5a05ccc3e4e87049865233482dc09a8ab2af3eb128646394e3ef529609031e7c6c2215c91ffd27de06cd97ca9ae7e07bd4b9595bd"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jakartaee/jaf-api/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+    },
+    {
+      "group" : "org.graalvm.sdk",
+      "name" : "graal-sdk",
+      "version" : "23.1.2",
+      "description" : "Shared library",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "519f87a6f4755dd116db33d10bfbff57"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ff15acf8a60f6b977195831b474c88d0ef66bd62"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a0dd3d7cfdee5dd069487d1f89e3fe985d06e362bf8abda1315a5b2bdc4d3ba0"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ee8f11e8a1d0926f7a6510508506a8a1dfb51bfe958b389c62431d740e4b0a1e79979d07a1398c0bc4fd0b4d91d201deec70ffdd846c88db33323b498a1fcb42"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0589fc9cbeacf6853ba3d4ccd7e5922263536d3405bd8a866c7ade150dd03daf618030f695ced118d31e2ed400930ef0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "54b01cea0624fec21602d175e89cd3013a17b735109fb3bc42963f0f54bc72c65139ddd2a005f0d03f839953ccd7d565"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5c996752b1d776cc017ca5bc5d6df73c4902b7c7c333dc4caa03f07be6aeea6a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "8d4ab6dae5223d2af73590d0f9680d4acc32e39f49d79293d69e5bf694f01564d36fa7d4d14cc5862a9d8ca6dab108edd361c225f2020664d37289cdc961e53f"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "UPL-1.0",
+            "url" : "https://opensource.org/licenses/UPL"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.sdk/graal-sdk@23.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.sdk/graal-sdk@23.1.2?type=jar"
+    },
+    {
+      "group" : "org.graalvm.sdk",
+      "name" : "collections",
+      "version" : "23.1.2",
+      "description" : "A collections framework for GraalVM components.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0a8766fe8d85119b421d9b9179a20295"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "970411b8fb869e297ff583e7f45222e63df60779"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "851a4052aaf916372c4fde2762c031446cd54fbf62ce7382a2ce08ab47fe33a8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ad009d045703b24d22ce4ca8fc7fb004cc4f90409612005a2072789bfbb716731d8b060f0e0c2a0f007dd361049e2af3ca92cc3be8f4f2639ce8156979b133a1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "3c990b3fd23acc505a0218743f472893e93a6c4e0d9662a5457caeb5aa41ca22c3ec60c2587e420a4a91311836133205"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "5361a6825e0a61c4983f4fe7b989cdae8ea741f52e148057b0f4e3ce6990099bd36a9a89d2ac42d7bdafc444166dd9fa"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "770f989a34344ef569bc5d5e525043ace5d97eeea8de6e8ef1b2efbae40baff2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2bd63f8a2e56b4e0b1589db4f45a0b86a5e70e78a7bd4e37972a8514ec7fe031e28179cafb4a3734992cda27a323cf7d8997137c8379877a8365e3ee26d06f83"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "UPL-1.0",
+            "url" : "https://opensource.org/licenses/UPL"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.sdk/collections@23.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.sdk/collections@23.1.2?type=jar"
+    },
+    {
+      "group" : "org.graalvm.sdk",
+      "name" : "nativeimage",
+      "version" : "23.1.2",
+      "description" : "A framework that allows to customize native image generation.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bd492b0ac8b2711d5e59ec24467fb2f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f5e116ec7e2f59c6975229aa762b7a07598e77a0"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "b20c00823c194cadcafc8e853b96a5754e641b467dc56634e738d756b308ad9a"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2f7124f97d1211c2f36575536303ffb760c0ee4eed6c2e63d262e51858f121ecf06ae45acb3b09469bb4849705fa7abbb055962f15a68ba21ed490e3d1e0bfd9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "82ff382e7b7ce47b1059b3fd3d5b55e332b0534502980a71520e4841eb50769c32226bc9efec32cdd8002ddda01602b9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "f7a74b18fd91eaf672213d6c4af38de7abdf4ae19da626f4a96b234300489b1b23bf9e58c1e1cdf36d78580d13ad7011"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "23d3484ccd0b23d9ca152e7df6281ab94258fc301042bd011f36e22ffc3d1228"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "0585a45ca12f510acb644b349a7ba730f41446e7e1a67c1d8a32df37730a03ee123990b66f9a151dd12058f22a097d4193068fcfd10a7c18050398fd202ef85d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "UPL-1.0",
+            "url" : "https://opensource.org/licenses/UPL"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.sdk/nativeimage@23.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.sdk/nativeimage@23.1.2?type=jar"
+    },
+    {
+      "group" : "org.graalvm.polyglot",
+      "name" : "polyglot",
+      "version" : "23.1.2",
+      "description" : "A framework that allows to embed polyglot language implementations in Java.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2b0e72767a4cd3d12b7ed8a3729470af"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0e89ad9484fccda5b3b94e10dc84c249183fb03f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c174ee0a80022c0b2b98d130aa415fd409fea60cb23dea72c6e410ad5a2d383b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f1117c3db2347d3e79a0b66e83114747c7a22691cdb568d4c0345f2f572f23f79fa6d622b1fa057fb815b7afe1f072d702d3d0e91b41a41a427efe86dc0ecedf"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "8e0c9010a2910c21319e9392087c92956c8692dddf89def5913699884e056162163a3a8cf1318dac05003d807803b2b8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0ca128e413c0b7cd6064b7fba926d11356f1deb82e7484f469e510aa3002a9dd7ebfdca93210f7898d5e93e9ebe3b07c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b77eeb8ca8146c55f9f48cd4f4538ac71f4e898a2a985fe5399e855683176398"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "801cd1e061e1a3d14786ca19f879a52ac96758b8151958d2a8360f82b7c66ac893ccd19157ddb9ba591c319476fee7a73e013025831cdcb8d9a3a8daf87e0348"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "UPL-1.0",
+            "url" : "https://opensource.org/licenses/UPL"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.polyglot/polyglot@23.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.polyglot/polyglot@23.1.2?type=jar"
+    },
+    {
+      "group" : "org.graalvm.sdk",
+      "name" : "word",
+      "version" : "23.1.2",
+      "description" : "A low-level framework for machine-word-sized values in Java.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "c850fa025977c8e3561fdcee911dbd9e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9dfd386a63750f33e848086317e19a01e9ed7eb8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "2ae7a71ff3f53f61d1d7360a6152f67ce3902ae86ca22b30b70208dc0cf4e039"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "cb70208023b5bc0cca75de3ecf2496563c109e09167836833d9214280aa22a8976231db259fc44b1cbc28c5748a91d878640b3a19774a71b2dced2d4c899edfc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1000f199d27ab189a7ff1cffd59bee5ada66617e6594159547a7b1ea97164c2081a7e1daf81349342a76290732da05b8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0693fe108e06e81a9ca3842b4692206c42b8e36739c0fb4d46c5039afe06f22f6a9be6326e075379c40f5cffc1cbd20c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c2c0a5869edf40bcef1d0fb5e2628f2d6b85f207a52b94efd5b5a0e3098a5293"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a5d3b6b7304c0b0d1f3e28f1c3fb3b1ddf433ee19891ef512cdbf03332940a375b7e53fa8a5837ae571aec31a737897675a6a835ddfc4066f739077785612b34"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "UPL-1.0",
+            "url" : "https://opensource.org/licenses/UPL"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.graalvm.sdk/word@23.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/oracle/graal"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/oracle/graal"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.graalvm.sdk/word@23.1.2?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/org.eclipse.angus/angus-activation-project@2.0.3?type=pom",
+      "dependsOn" : [
+        "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+        "pkg:maven/org.graalvm.sdk/graal-sdk@23.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.graalvm.sdk/graal-sdk@23.1.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.graalvm.sdk/collections@23.1.2?type=jar",
+        "pkg:maven/org.graalvm.sdk/nativeimage@23.1.2?type=jar",
+        "pkg:maven/org.graalvm.polyglot/polyglot@23.1.2?type=jar",
+        "pkg:maven/org.graalvm.sdk/word@23.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.graalvm.sdk/collections@23.1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.graalvm.sdk/nativeimage@23.1.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.graalvm.sdk/word@23.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.graalvm.sdk/word@23.1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.graalvm.polyglot/polyglot@23.1.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.graalvm.sdk/collections@23.1.2?type=jar",
+        "pkg:maven/org.graalvm.sdk/nativeimage@23.1.2?type=jar"
+      ]
+    }
+  ]
+}

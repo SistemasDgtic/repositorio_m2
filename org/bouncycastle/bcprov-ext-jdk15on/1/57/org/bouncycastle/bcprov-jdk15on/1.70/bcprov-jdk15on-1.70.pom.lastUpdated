@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Feb 28 18:57:24 CST 2023
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1677632244029
+https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact org.bouncycastle.bcprov-ext-jdk15on.1.57.org.bouncycastle\:bcprov-jdk15on\:pom\:1.70 from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: Transfer failed for https\://code.lds.org/nexus/content/groups/main-repo/org/bouncycastle/bcprov-ext-jdk15on/1/57/org/bouncycastle/bcprov-jdk15on/1.70/bcprov-jdk15on-1.70.pom
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1677632243844
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-codelds-https\://code.lds.org/nexus/content/groups/main-repo/.lastUpdated=1677632243664
+http\://repository.springsource.com/maven/bundles/release/.error=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:59:06 CST 2026
+joda-time-2.3-sources.jar>central=
+joda-time-2.3.jar>central=
+joda-time-2.3.jar>mirror1=
+joda-time-2.3.pom>central=
+joda-time-2.3.pom>mirror1=

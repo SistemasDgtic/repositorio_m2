@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Mar 05 18:58:42 CST 2026
+http\://jasperreports.sourceforge.net/maven2/.error=Could not transfer artifact org.apache.poi\:poi-ooxml\:pom\:3.8 from/to jasperreports (http\://jasperreports.sourceforge.net/maven2)\: Transfer failed for http\://jasperreports.sourceforge.net/maven2/org/apache/poi/poi-ooxml/3.8/poi-ooxml-3.8.pom
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1772758721616
+@default-jasperreports-http\://jasperreports.sourceforge.net/maven2/.lastUpdated=1772758721999
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.apache.poi\:poi-ooxml\:pom\:3.8 from/to central (https\://repo.maven.apache.org/maven2)\: Transfer failed for https\://repo.maven.apache.org/maven2/org/apache/poi/poi-ooxml/3.8/poi-ooxml-3.8.pom

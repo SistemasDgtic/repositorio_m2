@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:03 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 ehcache-core-2.6.11-sources.jar>central=
 ehcache-core-2.6.11.jar>central=
+ehcache-core-2.6.11.jar>mirror1=
 ehcache-core-2.6.11.pom>central=
+ehcache-core-2.6.11.pom>mirror1=

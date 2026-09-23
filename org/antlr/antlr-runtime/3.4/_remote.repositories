@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:59:06 CST 2026
+antlr-runtime-3.4-sources.jar>central=
+antlr-runtime-3.4.jar>central=
+antlr-runtime-3.4.jar>mirror1=
+antlr-runtime-3.4.pom>central=
+antlr-runtime-3.4.pom>mirror1=

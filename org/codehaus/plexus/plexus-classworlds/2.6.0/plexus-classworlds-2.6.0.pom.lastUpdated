@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 15:29:11 CDT 2026
+https\://maven.oracle.com/.error=Could not transfer artifact org.codehaus.plexus\:plexus-classworlds\:pom\:2.6.0 from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/org/codehaus/plexus/plexus-classworlds/2.6.0/plexus-classworlds-2.6.0.pom 403 Forbidden
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776198551777
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776198551864

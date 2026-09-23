@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 19:58:49 CDT 2026
+guava-10.0.1.jar>mirror1=
+guava-10.0.1.pom>mirror1=
+guava-10.0.1.jar>central=
+guava-10.0.1.pom>central=

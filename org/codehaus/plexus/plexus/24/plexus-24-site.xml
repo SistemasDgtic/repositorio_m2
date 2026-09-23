@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<site xmlns="http://maven.apache.org/SITE/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://maven.apache.org/SITE/2.0.0 https://maven.apache.org/xsd/site-2.0.0.xsd">
+
+  <bannerLeft href="https://codehaus-plexus.github.io/">
+    <image src="https://codehaus-plexus.github.io/images/plexus-logo-trans.png" alt="Plexus" />
+  </bannerLeft>
+
+  <skin>
+    <groupId>org.apache.maven.skins</groupId>
+    <artifactId>maven-fluido-skin</artifactId>
+    <version>${mavenFluidoSkinVersion}</version>
+  </skin>
+
+  <edit>${project.scm.url}</edit>
+
+  <custom>
+    <matomo>
+      <siteId>18</siteId>
+      <url>https://analytics.apache.org/</url>
+      <options>
+        <disableCookies/>
+        <trackPageView/>
+        <enableLinkTracking/>
+      </options>
+    </matomo>
+    <fluidoSkin>
+      <sourceLineNumbersEnabled>true</sourceLineNumbersEnabled>
+      <googleSearch>
+        <sitesearch>https://codehaus-plexus.github.io/</sitesearch>
+      </googleSearch>
+    </fluidoSkin>
+  </custom>
+
+  <publishDate position="right" />
+  <version position="right" />
+
+  <body>
+    <breadcrumbs>
+      <item name="Plexus" href="https://codehaus-plexus.github.io/"/>
+      <item name="Parent POM" href="https://codehaus-plexus.github.io/plexus-pom"/>
+    </breadcrumbs>
+
+    <menu name="Overview">
+      <item name="Introduction" href="index.html"/>
+    </menu>
+
+    <menu ref="modules" inherit="top" />
+    <menu ref="reports" inherit="bottom" />
+
+    <menu name="Plexus Projects" inherit="bottom">
+      <item name="Plexus Archiver"      href="https://codehaus-plexus.github.io/plexus-archiver/"/>
+      <item name="Plexus Classworlds"   href="https://codehaus-plexus.github.io/plexus-classworlds/" />
+      <item name="Plexus Compiler"      href="https://codehaus-plexus.github.io/plexus-compiler/"/>
+      <item name="Plexus i18n"          href="https://codehaus-plexus.github.io/plexus-i18n/"/>
+      <item name="Plexus Interactivity" href="https://codehaus-plexus.github.io/plexus-interactivity/"/>
+      <item name="Plexus Interpolation" href="https://codehaus-plexus.github.io/plexus-interpolation/"/>
+      <item name="Plexus IO"            href="https://codehaus-plexus.github.io/plexus-io/"/>
+      <item name="Plexus Languages"     href="https://codehaus-plexus.github.io/plexus-languages/"/>
+      <item name="Plexus Modello"       href="https://codehaus-plexus.github.io/modello/" />
+      <item name="Plexus Parent POM"    href="https://codehaus-plexus.github.io/plexus-pom/"/>
+      <item name="Plexus Resources"     href="https://codehaus-plexus.github.io/plexus-resources/"/>
+      <item name="Plexus Utils"         href="https://codehaus-plexus.github.io/plexus-utils/" />
+      <item name="Plexus Velocity"      href="https://codehaus-plexus.github.io/plexus-velocity/"/>
+      <item name="Plexus XML"           href="https://codehaus-plexus.github.io/plexus-xml/" />
+    </menu>
+  </body>
+</site>

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:50 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 SparseBitSet-1.2-sources.jar>central=
 SparseBitSet-1.2.jar>central=
+SparseBitSet-1.2.jar>mirror1=
 SparseBitSet-1.2.pom>central=
+SparseBitSet-1.2.pom>mirror1=

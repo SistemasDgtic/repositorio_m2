@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:25 CDT 2026
+commons-pool2-2.10.0.jar>mirror1=
+commons-pool2-2.10.0.pom>mirror1=
+commons-pool2-2.10.0.jar>central=
+commons-pool2-2.10.0.pom>central=

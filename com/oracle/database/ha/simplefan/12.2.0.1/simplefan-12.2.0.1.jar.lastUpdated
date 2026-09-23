@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:25 CDT 2026
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776731723273
+https\://maven.oracle.com/.error=Could not transfer artifact com.oracle.database.ha\:simplefan\:jar\:12.2.0.1 from/to maven.oracle.com (https\://maven.oracle.com)\: Authentication failed for https\://maven.oracle.com/com/oracle/database/ha/simplefan/12.2.0.1/simplefan-12.2.0.1.jar 401 Unauthorized
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776733285285
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776733285570

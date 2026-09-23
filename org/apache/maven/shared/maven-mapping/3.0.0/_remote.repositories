@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:24 CST 2025
+#Mon Mar 23 12:59:18 CST 2026
 maven-mapping-3.0.0.jar>central=
+maven-mapping-3.0.0.jar>mirror1=
 maven-mapping-3.0.0.pom>central=
+maven-mapping-3.0.0.pom>mirror1=

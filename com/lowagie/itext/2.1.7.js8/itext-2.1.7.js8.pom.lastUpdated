@@ -1,0 +1,14 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 20:51:22 CDT 2026
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776198972570
+https\://maven.oracle.com/.error=
+https\://jasperreports.sourceforge.net/maven2/.error=
+http\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=Could not transfer artifact com.lowagie\:itext\:pom\:2.1.7.js8 from/to jr-ce-releases (http\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases)\: Transfer failed for http\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/com/lowagie/itext/2.1.7.js8/itext-2.1.7.js8.pom 308 Permanent Redirect
+@default-jaspersoft-third-party-http\://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/.lastUpdated=1776217882242
+https\://jasperreports.sourceforge.net/maven2/.lastUpdated=1776198428520
+http\://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/.error=Could not transfer artifact com.lowagie\:itext\:pom\:2.1.7.js8 from/to jaspersoft-third-party (http\://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/)\: Transfer failed for http\://jaspersoft.artifactoryonline.com/jaspersoft/third-party-ce-artifacts/com/lowagie/itext/2.1.7.js8/itext-2.1.7.js8.pom
+@default-jr-ce-releases-http\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776198689800
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776198428424
+https\://repo.maven.apache.org/maven2/.error=
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=
+https\://maven.oracle.com/.lastUpdated=1776198543408

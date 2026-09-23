@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 15:27:08 CDT 2026
+jackson-annotations-2.8.0.jar>mirror1=
+jackson-annotations-2.8.0.pom>mirror1=
+jackson-annotations-2.8.0.jar>central=
+jackson-annotations-2.8.0.pom>central=

@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:15 CDT 2026
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.lastUpdated=1776731707633
+https\://maven.oracle.com/.error=Could not transfer artifact javax.validation\:validation-api\:pom\:2.0.1.Final from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.pom 403 Forbidden
+https\://jaspersoft.jfrog.io/jaspersoft/jr-ce-releases/.error=
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776733275129
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776733275460

@@ -1,10 +1,10 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Wed Nov 27 19:50:13 CST 2024
-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1732758613042
+#Mon Nov 24 19:26:10 CST 2025
+default-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1764033970447
+http\://repository.springsource.com/maven/bundles/release/.error=Could not transfer artifact mx.gob.sep\:ws-commerce-fiel\:pom\:1.0 from/to com.springsource.repository.bundles.release (http\://repository.springsource.com/maven/bundles/release)\: repository.springsource.com
+http\://repository.springsource.com/maven/bundles/external/.error=Could not transfer artifact mx.gob.sep\:ws-commerce-fiel\:pom\:1.0 from/to com.springsource.repository.bundles.external (http\://repository.springsource.com/maven/bundles/external)\: repository.springsource.com
+default-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1764033970440
 default-http\://repo.maven.apache.org/maven2/.lastUpdated=1670960301298
-https\://repo.maven.apache.org/maven2/.lastUpdated=1708621725965
-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1732758612775
 http\://repo.maven.apache.org/maven2/.error=Could not transfer artifact mx.gob.sep\:ws-commerce-fiel\:pom\:1.0 from/to central (http\://repo.maven.apache.org/maven2)\: Failed to transfer file\: http\://repo.maven.apache.org/maven2/mx/gob/sep/ws-commerce-fiel/1.0/ws-commerce-fiel-1.0.pom. Return code is\: 501 , ReasonPhrase\:HTTPS Required.
-http\://repository.springsource.com/maven/bundles/external/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1764033970347
 https\://repo.maven.apache.org/maven2/.error=
-http\://repository.springsource.com/maven/bundles/release/.error=

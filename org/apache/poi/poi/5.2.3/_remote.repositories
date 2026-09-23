@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:49 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 poi-5.2.3-sources.jar>central=
 poi-5.2.3.jar>central=
+poi-5.2.3.jar>mirror1=
 poi-5.2.3.pom>central=
+poi-5.2.3.pom>mirror1=

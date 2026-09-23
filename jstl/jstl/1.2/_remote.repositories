@@ -1,4 +1,6 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Thu Aug 04 12:44:28 CDT 2022
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jul 09 19:17:05 CDT 2026
 jstl-1.2.jar>central=
 jstl-1.2.pom>central=
+jstl-1.2.jar>mirror1=
+jstl-1.2.pom>mirror1=

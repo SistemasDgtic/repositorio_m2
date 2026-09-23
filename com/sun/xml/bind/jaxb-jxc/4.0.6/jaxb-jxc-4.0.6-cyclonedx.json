@@ -1,0 +1,1784 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-jxc",
+      "version" : "4.0.6",
+      "description" : "Old JAXB schema generator.The *tool* to generate XML schema based on java classes.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-jxc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      },
+      {
+        "name" : "maven.reproducible",
+        "value" : "enabled"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-impl",
+      "version" : "4.0.6",
+      "description" : "Old JAXB Runtime module. Contains sources required for runtime processing.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "eecf41c4bcd648ab050cd8f83d36da8f"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e81f27d58c769414bbc1ce88ddfb2cf822c8fa20"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "6316f34f83dae7f9ae525cf02ed14098a64ddb9c08f0ef18eac668479a3c1e93"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "7866dbde8137e390318559682c203271b44b9c56c39969d148fda750d120d7fc0dfaf93554f972d1f6a09a7cddaf0aaba9358327e6008e90c97f7d0487352425"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "426434f86ab30a4a6bd52630b2dfbbe3bd38c3b06440a13abb68ac5e929bf85a895d537cfdddf3b8b6ee854ce6289564"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9e051fa789428e55d2ecd49e03e436b7df3c3ab36101bc804f4ee324298e7b6be75a74f1ce3801b909ad8423f6c92966"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "45f29f02ced3074deaef3572348aed4307ae374a5797e87316fcc1b0bd51a9d5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b14cae2e0947428c4e3ab90f54dc5c600664f5073fb8395cddaab2284f93fbaaca7970b43fb2cb86bedfbfa604b52cc0ef1895b13d310f87809e5d9318c838c2"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-core",
+      "version" : "4.0.6",
+      "description" : "Old JAXB Core module. Contains sources required by XJC, JXC and Runtime modules with dependencies.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3455169e66654fa6c709aac57a360751"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e3e1a6a8b0bb31c4304118a18bafa06cfb19a03c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "22b7e93e9e25cf1264fd436e0ffaa54bb05aa8b076acbee1a5325386cb8f80b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "aa39f015924e58b764bde81e1215e22fdb16e79b7b78b690710e5f409e310b223ed46bf8b624d7cf3a5b7ec4c73881c75c7f27838d25643028b24ce18cc78d85"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1be3963b6afcd1e12c350df8d8d129ffdb36659490ec03bd9008c56fbd43ae552b840155adedd565eb22935b9c7b8ed1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "06cf554b13da9e7ec84a8e9a8c7c2b996a72c5423021a5ccd362580cb8fb835c3130a23c479877b94faf851617922d85"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5145ad5983b2fee768faf49cf3e57a874583aef2fc0b04441d9753f0b0c64e4e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "11387c6438b691cc5884e6f1e281e69662ebc6888e56211a57a077fddf1f35e16570ae866f10b4cdb7907f39fc4f8eff182c583157ae26b6b8e815ff3e822d30"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.xml.bind",
+      "name" : "jakarta.xml.bind-api",
+      "version" : "4.0.4",
+      "description" : "Jakarta XML Binding API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6dd465a232e545193ab8ab77cc4fbdb9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c507ca69a8c6dd11bf4afeec9e0d412c4fa3933fffb0a84680ea5727e8472124"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "18b9b21b51b46068c3e3e4a74241d0649e56512aa471f2c9076583e366096739e8566682527eb25a735a10337f0c5b54797f995dfb254b7ed631548fe8a095f1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "63bd1b70b429b5defe2331625a570943637808394efc7e8a27051422ee0494d74a79b4295c620f532e366f4b473fdd51"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "15d5318671cf9676f294b1f68092d3ead4817a83c3c915d270f039671df602d1c038c8e8ce9dec2096a2a19e75265c2e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d860ce7928b8ad4be47a636d0c03982431c2f8029b4a135c564ad53b8cf80f86"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ccb6c58aa4f9617721fd7b21ae73a62ca95a203a06414814db9d103b4a140b70564872e6898542841c920cd27da3c29b18dfe1bc57042439d7755e599d7b0a4d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jakartaee/jaxb-api/jakarta.xml.bind-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jakartaee/jaxb-api/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jakartaee/jaxb-api.git/jakarta.xml.bind-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "2.1.4",
+      "description" : "Jakarta Activation API 2.1 Specification",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bc1602eee7bc61a0b86f14bbbb0cc794"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "cd078772acb5ebf1f90f7c737f372b7e86a5ce31b995ed759526a9eee73fd89f97e506f9a208ba3b73e757cb78830b829733411cf7989680aea2272abba7323b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0b9a413939a024f562c15e60b11f85c336620987441fb053645499704960464d01ae83e9989b43ae6cd4f2164eb0cebe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d2fa51a3e18ced20f097ae019982cbd945942103df59327f319c64eeef1c109d6262d1de332fa2b6dfde41c98a9e7b2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b259d17f48ae1f357a28b9c33b66fbcae50eaa86d61ac3c8cbc5184e7914d2d5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aae6a55fe1fa397b13b1bcb5a05ccc3e4e87049865233482dc09a8ab2af3eb128646394e3ef529609031e7c6c2215c91ffd27de06cd97ca9ae7e07bd4b9595bd"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jakartaee/jaf-api/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.angus",
+      "name" : "angus-activation",
+      "version" : "2.0.3",
+      "description" : "Angus Activation Registries Implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ad20392145690b36b4f950fe31a31a2a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7f80607ea5014fef0b1779e6c33d63a88a45a563"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a6bd35c538cf90fff941ad6258c40c08fca0b5c9c3f536c657114f27ce0527a7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "efb987b781f665589b2a524d86826ffcf37eaf105b2f823be124fded85bd118098c0749b5d268373d00b1d3b8bf0f89f86670444f9990b91948704a7052376e1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4086b356cdf168e28a09dfa2ee9cd54926491438d556e4608508ae6a895929adf63f3a259779c83624a9bb1f886efb6d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7b79721ec0b28964fad4bf56ffc3be67d81b62e45a4ac703917094e281c125834b9bebcc0623176d4904c5b50c94450e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "aecadbd33e92abf894ae28c8cc609f5f85e8af736621c44fb71b84ca34e91247"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ebdc07c3b3cf0817f6d9ee54bb23461657f213648b70f6c7f634a1028cdf1522d5b5a7e2168130f72afa112f36cb08858d1c94bb67b40a0f051f567b4d696d1e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-xjc",
+      "version" : "4.0.6",
+      "description" : "Old JAXB Binding Compiler. Contains source code needed for binding customization files into java sources. In other words: the *tool* to generate java classes for the given xml representation.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6bee0340bcc50b55b039742a459a0eb9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "f6e749102a4044b43cb8ebf3af5ae621eaf37f45"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e845e127e1a50a6790bf2cabe3483e3bcceaaa321c24528ea87dbecac498ad06"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "72cbbc4e62b4a7c0f21467fe4111daf7a75a361806deb321fdcd194bc0b4d75ea88460d9ed80d5dbe3d1536fed109918c9e2b87a14d1b7682ae7d3389a21f83a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "70f5dca68081b985af5044fa8e33e2a4712a9b5e02306bbb24ef90083d73a1e4a2dc7803dcd30999e94d6d33f8c0e815"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "82397a7f98e20caeec2f9d1bd45c7c136f8e669361f82a36d68b67b416a651f3832219c32dc17604e5e0123a387bfdc5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "03e25e4a27be7321c76f5be3db26c20b33a68707c0a91d227a48d9e0b6eed25e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "9f81b8ddec00216ee0f58e1c053edf0c69b385694f28611c989c5c23afec8590aaf32bca7bb10c8cf3d8cf3c66af854e148ee2c2a37183f35122fd7b02460106"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-xjc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-jxc",
+      "version" : "4.0.6",
+      "description" : "JAXB schema generator.The *tool* to generate XML schema based on java classes.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "8a9c01c8512f60cf8760ffaf51fa5c55"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1d214f8909b801b5b6159ce97f362658a68bebb3"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "be01606e515a7b7c3d564463c8fe21d0e5cab30efa1432273fd4467438f89b41"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c3f63dd4a5715154deea59e6efcfa0fb6c358cc2cad7ea5df28f135c4ce6e57d67734b353e5dbb3437a217c6fcc002c89916406b2392c2b5143f36c9e308f69a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4f552b0daf0c9df559e5180899c458125cb0433e358e6f7a076319e6a262c2d442633337e467b7596ba1fbbc29588f3e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9f74f638b5f7e81f3391a026e38463ef2ac7bef10edfe6a34fb467731be61dec4358d362626c32770ecb70f49c9125b0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "02bc62e3aefe9dbdb89dd97670ee55a2b028d03887885e675d2b9035558bc89c"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a6182909b9707ab5bce3e9f309f97e7fafe5800aff4442149a1ce975c6c533c7033cf9967d482eafd69588cb863d829464275d2d7d5b4c6265bb1fc3f5ebbb28"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-jxc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-runtime",
+      "version" : "4.0.6",
+      "description" : "JAXB (JSR 222) Reference Implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0e600d639f3a09ddd6fa91623a12b634"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fb95ebb62564657b2fedfe165b859789ef3a8711"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1c0d57f8c25f9605d5a2f7ad0a87581893776ac85b00b101b2651258edaa9118"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e19db2669e916992ea6acc75174070a4b5f04bb7788df03b1ede3340f5d63cf1c5055568ba1d7738e9e018716d10c3f6b26d1951faf8bba75f6ebb6ac6b16314"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a3f7264bbb6ea1722d21d12efc651c183b30498542258cf0ea096ce5c7eb17440fe5d3650afc8e976b55c3a3d0952d24"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b6686499e954ca7caca8c1dabdffc33c3741b012f4a73b729899ffff67f4cddd5c22e7bcce87bf5337933626a4bda798"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "068377faca7e7c02a5687b7920f0661026dcd51c8b58faaf4de13db1673978be"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f3f9a6944a1b547adbcd621fce28aa9ca07d9992e2ce224e4b4b06195205566737676981d9066ad205f8c008a5e8696d4f4895e9725a94c11bc022c525818d8b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-runtime-parent/jaxb-runtime"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-core",
+      "version" : "4.0.6",
+      "description" : "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e36c915cf47342b4fe31ffba3407b928"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8e61282303777fc98a00cc3affd0560d68748a75"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "txw2",
+      "version" : "4.0.6",
+      "description" : "TXW is a library that allows you to write XML documents.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0bf7070aee3bb53640d2ea6441e059fb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4f4cd53b5ff9a2c5aa1211f15ed2569c57dfb044"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fcc749785412ef3806fde1ce70f93ef5a0065dcc47fe449bc871db0795cb11af"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "47eb0e4b199bb12804da94cf8a81a1e652e8ca31af68b65d52f1a0cda6e1c9b41276e4bc1e4ea510f83ecccff9978ff8bd05a56c5b16a4181d8e0673d608b2c4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a28256c538462ea28a37dc01b60cf6d4dcba6d54146bdc762fbf4a0426bbbd3555c20d3164508dc8860ad7e652f80cc1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d220fc81c28a004c31e4469e27cb0d5d9b0e358bcbd3c0989e4b0065e7c081464c7091b8553c98cc060934305d468aa5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "de4b8f8a5fe13b14d7ac56a8e1ae705f2160a6e873a997b72827ba5f124f7907"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ea807533e719e593d7c3e12bc5eba7c84cebf01c398c1ff92122578a04849cc64b7ce300142261475e8d8a35cfaeb53faddd68b905c0309a21d5f27479b98ed3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.istack",
+      "name" : "istack-commons-runtime",
+      "version" : "4.1.2",
+      "description" : "istack common utility code",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "535154ef647af2a52478c4debec93659"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "18ec117c85f3ba0ac65409136afa8e42bc74e739"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c3b191409b9ace8cccca6be103b684a25f10675977d38f608036ffb687651a74fd4581a66e1c38e588e77165d32614e4b547bff412379f7a84b926ccb93515bb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9b8e20b08b109c485c654359ede00fcef74d85ac18f9c7978acd47bf630838d21ea193f79d144e66cf0f6992efd82ff8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "81c4cf19a5d0f078263cc8f9320d4208da28e25b93c1f45885e237148a3a7c7266ba7586a1eb5cd3efc86be6f90082bc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "218aa7dd7bca7cfdbee752bb1c2737a7066b47058a42b4ee466a14350bcd2741"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "74770476681a130a3057fdfa2df3977b8aa9bbf1a520d9481694d0e9e0635c2e88d74ff73bbb870de34d93d0a4b6eae7f030e4ba12fbcc51debde58897fdcb6c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-runtime"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-xjc",
+      "version" : "4.0.6",
+      "description" : "JAXB Binding Compiler. Contains source code needed for binding customization files into java sources. In other words: the *tool* to generate java classes for the given xml representation.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0308450a81b198e7d8c448731a7020e5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "858aa8a31a5ea2bd287e4753a99ae294040c53f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7408981db429f7d11b40f604b062635cf087534462485fe1e44c6ee81206c9b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "2876dbf5b09a87c9954760e0aa93ac48e43f75f1eed6adb2eda8b9dcbd5b1b74b991b62be0ca6dab33360d46c52a253a4ccd6465d0e52e7f554421344a1c8b31"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "f7cfd50001e491f8db7a9d0363103ed262c6bee182dfd95155124c8a71daa478ce93c2422adfadd6f7c3a7448e3db8f9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7b3f3d8cdd13e4a84a1a3e9ee68c9a48ae2fef102b59e299b0a975037660f0ccd2e5881fbde46aebc4c4ac8da3be3de1"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "13d8b9e086c9692a14308ecfc4ac8755a5ac7011b17a5850336e26654f2669fb"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "63aafc0e23cb392710b10f44360f795c041ce03e96386d63e516d8ba81952eac944969551c33d12d9b47fd5add5e4257cdef1117b6c321aefb887a1c08512362"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-xjc"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "xsom",
+      "version" : "4.0.6",
+      "description" : "XML Schema Object Model (XSOM) is a Java library that allows applications to easily parse XML Schema documents and inspect information in them. It is expected to be useful for applications that need to take XML Schema as an input.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5be2c301e3bb0655ab30265eb9e7c97d"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b250eca67bafd0e947d0da4f00a7856aeb83b247"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e439ed31d7c262f6fad4dc036b32d63f294b180ec215772ba7ccf05c3d2f2700"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "88ddb6c833d1cfeb86901ee14cee4fe6da59078bd1e63ff56dd64fd3cb63f3d86c0427f97f638a4a416c2ca782049bd201c2b8f4e04e2ec5aa9c019c6320532e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "77899091408cd4cb8b3e22e688db866a70c00342842a8fcaf38462409dc1cb64044587a7fa73a72693bc2304e4f22e6e"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "64b7e65fe0b5306d0bf7c6a132132e4c3a5d52bc950233fc5b3fae78a8dc3ebadfc2f1b8979f9063619990ef9814243d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0ed5b9f2c27e50f68f0d4eaaec9e1b7c2301f56fe0a4a7a26b1eabf021a87ade"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4182c8892ce0ce16c20466cf41b9e87e7ae1dd39f2da384c807fe18f043bd147e066fae0458b7100d27f3dc372245cec7c64b72ceeee5bef89decb5028cb69d1"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/xsom"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind.external",
+      "name" : "relaxng-datatype",
+      "version" : "4.0.6",
+      "description" : "RelaxNG Datatype library.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "a2d2c1defb7b05c22f21391c17a49a67"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b025edfde3e9dd0a94e37dc964d39bd599e9ef98"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "664e7ca7b856693b0f40a1eb8064332f1f41a568fbeddea832ae393a9b2e5a2f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a6c7a46864fc64721e590d1e91cee98666a55e4a5b63663ef298d41baa836f9b220977daaf930451a18ad418a4cfb7b2b3118e87a3807916bc30812b65ac1665"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "32fa75ebb0665e7a3f10840a9e97ebe8eede282e926cecef98cbaac3fa6bdacec479ee9610294c8b6508e11acbc212f4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d815ba9b9b561bc9b5cf80bae504210e498c882e3a9896acf1506dd03f3e7254ed6a2de40a19138c13134167c464a2dd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "4c114d471688bfb9d8eacfa89836ebc09e54247ac7c094aca0b64750aace9b61"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2256575aa4444235e0d60b65ccef9927722ea3f7b9e07b2e990815339f34c07ecac96213757ec7e1824b812d5e4fd0ffec234341a5180989b736dc8179c66049"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/jaxb-external-parent/relaxng-datatype"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "codemodel",
+      "version" : "4.0.6",
+      "description" : "The core functionality of the CodeModel java source code generation library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "57f1728f88ad747cd29991ca95dd9053"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d1bc0a725256f4dbfc170a950c7053971d59b30e"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "0964707e7718c0f52cbd816d15a48aab3bab1941279f414598936b7464e8c9b5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9f9032d5ed13f0f1de936f8595e43544f7dd868b1754f24a8fc9231d6c982f23bf2377bfbf9f5f68a89cb29abfe094d9de155ead6fd6f07a282ed843657feddc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4eaca1111d58f652a576ffd588a6304ee3cc670c6ba3ef7539c13174b500aa3fec569e9fc353d8652a5f670f101abbc0"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "64b28549d4fd5d32179c1eab9e9ca8bcc70fde343f6a8c0a0e18a3595f6edb6a37f4d1c51563b679dfdf6f22a3128c4f"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "0dc184c802da8d76a67751775f20366a26800ce2a5379755379762c8e5f41e31"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "23ec87aae3d34dd7ee38231e91175557e2950db7413997a23ef294596c3caa490343ae7602daeb0736cf3e32f87e59c49798568ecbb87b927a8735b2f8c624e8"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/jaxb-codemodel-parent/codemodel"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind.external",
+      "name" : "rngom",
+      "version" : "4.0.6",
+      "description" : "RNGOM is a RelaxNG Object model library (XSOM for RelaxNG).",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7f46ced3786f37c64cb46512032f2535"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e284ac6a66c9184bc0beaf0aadfbfa5371e6eb66"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "78c4d1e100b55b1990af14d9e9fc70f8a6995436acd9e78f3c7cb91b25fdabbe"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "35b1c244957c4d9abb11f07d43a5d975427f9d528c1914a87027532c4adecee2c9f81500efc4730bcac8be935ebee430a82f52df33282160240b568fcaa34258"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "26663761c3fe6bb19e3398c059bb921cf28132981a374d013d36015d916d5a8f349fd7f25e08aea54c4d27d09eb77902"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "ade8d819d4d7dc0f8fc3e327fa9c88d197310b6b68a8e146009dee86061d4874da02cb4da1cd58096e9c2216ad22ea92"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "6fdc108c8a177be8535c4341f63894717ea9707be988fa0025adef60c3c32ac0"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4b7d9312978f0d339abf9a40740f9efcdedca0fe71783257bce727f57a32ea2ce1241d9ac0115125c2c1f62386ab0158c5797cb13343d820652706677e7ecd77"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/ee4j/jaxb-external-parent/rngom"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.dtd-parser",
+      "name" : "dtd-parser",
+      "version" : "1.5.1",
+      "description" : "SAX-like API for parsing XML DTDs.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "1e89cc157bf2d23f0af9ef4ec89118cd"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "ea83eb8230febbd72c56f11c11bbd1c75a904c35"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fd07c1b528e8649e956bd4c759a63badb79e8076260b5c23bdf37f2b11d06711"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "4af98dd47522df39bf6afdfd467488f68ce40ab725a9b6269987757caf67a9dd531da3945add0761fc9afd97263a6535f97fa46aed7df9b1b458c62584462725"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "c416dd82fa8f4fc9217550e991df9a2a53f71a5317e7559e11a55a23fd6fc6ad347818a2dff07ae4e23929c83841accc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "bc37996d3e16a282e453de8370374144717388244d752f0be4971efcfab241e5b1aa21473ad85d035cde7f2b354061d2"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a73949822a2e1ef4ecdabbbae109a54b4cbd43004dee201070ab20e4b482cf10"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7a680a1db3f093833c7c8eb2f10ce360bbcb471413de6fb4a9e3fa4a657312ed761960b9dcff680e2175d7659af4e63b0df062638cf08d4726edddcc32d68dce"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-dtd-parser"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-dtd-parser/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-dtd-parser"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.istack",
+      "name" : "istack-commons-tools",
+      "version" : "4.1.2",
+      "description" : "istack common utility code",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "53590bcdfeafccd31d1d1bc791af1555"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "585c1af261fbc0b0cccf72f4d6c5ff11c1e596b1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "85b4fe7ad6fdfc64a586133f039d3de7b51db2c8111a1aa98a267891e27f386f"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "63699c5692d3e7bba62bba01fbe32f020432b521ce148819029723b090575d93de12dc1b81537d00da84320aa571df7865e54317589c0570fae849689570f58a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4f9ce771c893ba4b8341350657d0f4d864ea0dc2ce7b9c3a3c80cd3466cd5043a4b9c98fee86804139e1025d77ddf7f2"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b39294965f71d81e0ad3f81b3cc4f9534f0a9a129613f23425d7b0e9d928744f5542ad9eac722363f920652e10792ff0"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5d39ea2ef492dd0d7ad49cf0873a0a2797a36e0f0362fca23bd501874ceb3158"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "bcf719aee10e3dc170de49f89284e92bf2b3d28adcdccbae67dcfe094073955b68aedf7f2709be2e46235a255f1f50e746ca7428dbb2bd65a988a5f771076089"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-tools"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-tools"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.ant",
+      "name" : "ant",
+      "version" : "1.10.14",
+      "description" : "master POM",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "263e00d844d0e4efa54440ec5ed6362a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "1edce9bbfa60dfd51f010879c78f4421dafae7a7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "4cbbd9243de4c1042d61d9a15db4c43c90ff93b16d78b39481da1c956c8e9671"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "9fa6296d1d224e16e6d0ae270e128098d480f8b54dee3deb13d348bf033fa621498dfdafea61d84f0b4710d12c21a42f05be076ddce385754879c8782a333c4e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0f2bae9975d540c9c01872b1f5ff8f8888c2976e1f75e69c7b34175f3bfa9134605c35146f023d7ef9bcb4d6f136ed58"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "280026cf5236e14efcbc64e5d4524d260495061f1f47b1f9d6345d77c74db71d334572a975506e2310e3bead325974d9"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7167898eebe3239ace0f86b116ada1314111741eb69832668827c2e398ccac8a"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "c6f7c44dd307a999216e327efa7c001ce4f2c4ea400bd6f5b6be5b09f09d81f51aef67c9bcaa0aea7cf257fcd8de7198b9a5b151c305a9a04ca0f20b5c16c64c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.ant/ant@1.10.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://ant.apache.org/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/job/Ant-Build-from-POMs/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://nowhere.net/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/bugzilla/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/ant-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/ant.git/ant"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.ant/ant@1.10.14?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.ant",
+      "name" : "ant-launcher",
+      "version" : "1.10.14",
+      "description" : "master POM",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0e6c71b2f05383e1fb891e99f5267663"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8d2268288496b0541a2640f2ee07fe3de1a02301"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f0909725a7a24e393888f3fbb558347abf506ce2f7ebc581ff26331b94d951a5"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "11253b888efb900b34f12288f78136a2ef28c889afdfc12fd2fd5a38ea18b648cfa90dffe283b2c8266a2166cc43dd40a01050e6616ec391c71864b2204d2d88"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "ef0efd42803c505ae7fbfbe79302c29b99af8c1d5e7bdb022f93a89b5272a2f154d4beb7724effdeea0d6738cb7711b3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9e21cd11c628201c7b32daac116d8043e207d36cee9e3da668600991e2b6175ee1ef7c74565c659bb69cb8e8860af7ee"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "9205c89cf3b4ab21fcfe7fe8f31e0186c8228d39c7b06aace982b6a1ed09213e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "22a891ba3141fc834a28dd07aba3309dff3bf8fa26ea537bfdda06c681847f2c5fcea72c156f839aeba028ec949624992e0e0a9a2320a2c65faf16834bb8ae44"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://ant.apache.org/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://builds.apache.org/job/Ant-Build-from-POMs/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://nowhere.net/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://issues.apache.org/bugzilla/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://mail-archives.apache.org/mod_mbox/ant-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://gitbox.apache.org/repos/asf/ant.git/ant-launcher"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar"
+    },
+    {
+      "group" : "org.checkerframework",
+      "name" : "compiler",
+      "version" : "2.4.0",
+      "description" : "The Type Annotations Compiler is a fully backwards compatible customization of the Open JDK javac compiler with additional support for type annotations.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7d0c67b38cea773dfd6817e1ebcd23f7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7e0d09e36c241636cc656755199a6e1c665701ed"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "49100e746898bc8058ea0d2d004ee62a6531c81c686414d49879e93627d30dc8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "d2369f2d2e5a60d25918e61e2d8dcd3544b08dfa77ad786b4ca39563f24e6b9f6ab7f2e571599b1dc588076674753b5a0ffafe752816f0330b345e0857747f40"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "81cb4a8dbaa0c198bc5d9ed52159446e1cc674b5cfb36f7bd96c6e8fedbb40622e1e97504cd8732f8e16c22c5405191d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "e2db302c891f1762f807b3037fe857b86aac56cf2f334505489d48a28841b62f24b049bca1a2365d184577d94563be1e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "33a3ff5bfe74c28f206c047dde12da30463388ed8323f4e2f94810a95b8c89c9"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5c630c60c9d69760918c7ce6861152752cdfba0395098a197672f31a7dfa52e3e046756a6e63c0a136dce2cb8a855afeb2ea50344514e743002e9360238051b5"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "GNU General Public License, version 2 (GPL2)",
+            "url" : "http://www.gnu.org/licenses/gpl-2.0.html"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.checkerframework/compiler@2.4.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://checkerframework.org/jsr308/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://bitbucket.org/typetools/jsr308-langtools/"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-jxc@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar",
+        "pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar",
+        "pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar",
+        "pkg:maven/org.apache.ant/ant@1.10.14?type=jar",
+        "pkg:maven/org.checkerframework/compiler@2.4.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+        "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-xjc@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-jxc@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar",
+        "pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+        "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+        "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+        "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-xjc@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+        "pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar",
+        "pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar",
+        "pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar",
+        "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar",
+        "pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/xsom@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/codemodel@4.0.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind.external/rngom@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind.external/relaxng-datatype@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.dtd-parser/dtd-parser@1.5.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.istack/istack-commons-tools@4.1.2?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.ant/ant@1.10.14?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.ant/ant-launcher@1.10.14?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.checkerframework/compiler@2.4.0?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

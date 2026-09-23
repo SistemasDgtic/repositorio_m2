@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Wed Aug 06 14:13:25 CST 2025
+#Mon Mar 23 12:58:20 CST 2026
 jdbc-4.10.10.0-sources.jar>central=
 jdbc-4.10.10.0.jar>central=
+jdbc-4.10.10.0.jar>mirror1=
 jdbc-4.10.10.0.pom>central=
+jdbc-4.10.10.0.pom>mirror1=

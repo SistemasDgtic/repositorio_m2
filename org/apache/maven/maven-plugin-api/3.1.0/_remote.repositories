@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 23 19:25:54 CDT 2018
+#Tue Apr 14 19:58:49 CDT 2026
 maven-plugin-api-3.1.0.jar>central=
 maven-plugin-api-3.1.0.pom>central=
+maven-plugin-api-3.1.0.jar>mirror1=
+maven-plugin-api-3.1.0.pom>mirror1=

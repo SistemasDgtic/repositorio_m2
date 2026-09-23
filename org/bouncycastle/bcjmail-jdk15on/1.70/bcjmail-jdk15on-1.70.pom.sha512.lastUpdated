@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Wed Aug 23 12:15:19 CDT 2023
+http\://maven.jahia.org/maven2/.lastUpdated=1692810919471
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1692810088982
+https\://code.lds.org/nexus/content/groups/main-repo/.error=Could not transfer artifact org.bouncycastle\:bcjmail-jdk15on\:pom.sha512\:1.70 from/to codelds (https\://code.lds.org/nexus/content/groups/main-repo)\: Transfer failed for https\://code.lds.org/nexus/content/groups/main-repo/org/bouncycastle/bcjmail-jdk15on/1.70/bcjmail-jdk15on-1.70.pom.sha512
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1692810088809
+http\://maven.jahia.org/maven2/.error=
+http\://repository.springsource.com/maven/bundles/external/.error=
+@default-codelds-https\://code.lds.org/nexus/content/groups/main-repo/.lastUpdated=1677632418678
+http\://repository.springsource.com/maven/bundles/release/.error=

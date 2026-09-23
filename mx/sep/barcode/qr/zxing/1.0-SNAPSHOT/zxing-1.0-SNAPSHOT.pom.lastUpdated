@@ -1,8 +1,0 @@
-#NOTE: This is an internal implementation file, its format can be changed without prior notice.
-#Tue Jun 23 11:40:18 CDT 2020
-default-http\://repo.dev.bloomberg.com/content/groups/public/.lastUpdated=1592930418533
-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1592929673094
-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1592929672535
-http\://repository.springsource.com/maven/bundles/external/.error=
-http\://repo.dev.bloomberg.com/content/groups/public/.error=Could not transfer artifact mx.sep.barcode.qr\:zxing\:pom\:1.0-SNAPSHOT from/to central (http\://repo.dev.bloomberg.com/content/groups/public)\: repo.dev.bloomberg.com
-http\://repository.springsource.com/maven/bundles/release/.error=

@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 15:29:13 CDT 2026
+https\://maven.oracle.com/.error=Could not transfer artifact org.codehaus.plexus\:plexus-compiler\:pom\:2.8.8 from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/org/codehaus/plexus/plexus-compiler/2.8.8/plexus-compiler-2.8.8.pom 403 Forbidden
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776198553131
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776198553207

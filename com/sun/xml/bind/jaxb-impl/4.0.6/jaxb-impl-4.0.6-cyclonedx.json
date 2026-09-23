@@ -1,0 +1,916 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.9",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "8e595cdb67f17e4b41e046456970591d"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "69e8ca804520d09ce4657e7235bae84d01cbffa6"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "aa09074fe5aa403c008cd4fc7ef8ce41cd244489337f16b3e91a3914158a4db8"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "1488a8112da8e675813d7585f57c5efb178aed32901118186ee12d0e4ae3d19c53774c7f860bf70d17d70f050119b69443a2637cf641675b4b5d9cdcdd69b89b"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "b097295dfbf10887abc6eec58d4d0822cde5a73d1f5c1cf183a57bf569016ad5ced9d34efae3e574d82bb62837540c6c"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "289f9520bd73a2031276248a6ef8f0891c691062c2d1ea86a2bc9ea8db2c52377d92a53be9957179e71aee3deda26a8c"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "32b50a7efe5d491a4039c0017eca3cf49d98b55fc66d06b3dd06209487323474"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "1daf813da53e5d5cda4d0302ff3a5e388aa45d96ebe6dcbe240f35d33f14b1e6390f6bbe7f21f3ed8cf96ebd9f5516a08b18487b7339715109c81cebfc1563df"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-impl",
+      "version" : "4.0.6",
+      "description" : "Old JAXB Runtime module. Contains sources required for runtime processing.",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-impl"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      },
+      {
+        "name" : "maven.reproducible",
+        "value" : "enabled"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.bind",
+      "name" : "jaxb-core",
+      "version" : "4.0.6",
+      "description" : "Old JAXB Core module. Contains sources required by XJC, JXC and Runtime modules with dependencies.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "3455169e66654fa6c709aac57a360751"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e3e1a6a8b0bb31c4304118a18bafa06cfb19a03c"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "22b7e93e9e25cf1264fd436e0ffaa54bb05aa8b076acbee1a5325386cb8f80b8"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "aa39f015924e58b764bde81e1215e22fdb16e79b7b78b690710e5f409e310b223ed46bf8b624d7cf3a5b7ec4c73881c75c7f27838d25643028b24ce18cc78d85"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "1be3963b6afcd1e12c350df8d8d129ffdb36659490ec03bd9008c56fbd43ae552b840155adedd565eb22935b9c7b8ed1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "06cf554b13da9e7ec84a8e9a8c7c2b996a72c5423021a5ccd362580cb8fb835c3130a23c479877b94faf851617922d85"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5145ad5983b2fee768faf49cf3e57a874583aef2fc0b04441d9753f0b0c64e4e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "11387c6438b691cc5884e6f1e281e69662ebc6888e56211a57a077fddf1f35e16570ae866f10b4cdb7907f39fc4f8eff182c583157ae26b6b8e815ff3e822d30"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-bundles/jaxb-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.xml.bind",
+      "name" : "jakarta.xml.bind-api",
+      "version" : "4.0.4",
+      "description" : "Jakarta XML Binding API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "6dd465a232e545193ab8ab77cc4fbdb9"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "d6d2327f3817d9a33a3b6b8f2e15a96bc2e7afdc"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c507ca69a8c6dd11bf4afeec9e0d412c4fa3933fffb0a84680ea5727e8472124"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "18b9b21b51b46068c3e3e4a74241d0649e56512aa471f2c9076583e366096739e8566682527eb25a735a10337f0c5b54797f995dfb254b7ed631548fe8a095f1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "63bd1b70b429b5defe2331625a570943637808394efc7e8a27051422ee0494d74a79b4295c620f532e366f4b473fdd51"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "15d5318671cf9676f294b1f68092d3ead4817a83c3c915d270f039671df602d1c038c8e8ce9dec2096a2a19e75265c2e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d860ce7928b8ad4be47a636d0c03982431c2f8029b4a135c564ad53b8cf80f86"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ccb6c58aa4f9617721fd7b21ae73a62ca95a203a06414814db9d103b4a140b70564872e6898542841c920cd27da3c29b18dfe1bc57042439d7755e599d7b0a4d"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jakartaee/jaxb-api/jakarta.xml.bind-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jakartaee/jaxb-api/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jakartaee/jaxb-api.git/jakarta.xml.bind-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.eclipse.angus",
+      "name" : "angus-activation",
+      "version" : "2.0.3",
+      "description" : "Angus Activation Registries Implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ad20392145690b36b4f950fe31a31a2a"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "7f80607ea5014fef0b1779e6c33d63a88a45a563"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a6bd35c538cf90fff941ad6258c40c08fca0b5c9c3f536c657114f27ce0527a7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "efb987b781f665589b2a524d86826ffcf37eaf105b2f823be124fded85bd118098c0749b5d268373d00b1d3b8bf0f89f86670444f9990b91948704a7052376e1"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "4086b356cdf168e28a09dfa2ee9cd54926491438d556e4608508ae6a895929adf63f3a259779c83624a9bb1f886efb6d"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7b79721ec0b28964fad4bf56ffc3be67d81b62e45a4ac703917094e281c125834b9bebcc0623176d4904c5b50c94450e"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "aecadbd33e92abf894ae28c8cc609f5f85e8af736621c44fb71b84ca34e91247"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ebdc07c3b3cf0817f6d9ee54bb23461657f213648b70f6c7f634a1028cdf1522d5b5a7e2168130f72afa112f36cb08858d1c94bb67b40a0f051f567b4d696d1e"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/angus-activation/angus-activation"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.xml.fastinfoset",
+      "name" : "FastInfoset",
+      "version" : "2.1.1",
+      "description" : "Open Source implementation of the Fast Infoset Standard for Binary XML (http://www.itu.int/ITU-T/asn1/).",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "60067f13107f9ecf95abcdf73859e47b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "650c84348bbcf4461bd24d38e67f7a7ce687de24"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "75d6635e09101ef1545d9a59bb4d9524ec6bf15246540af5435750f271612765"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "964ef5eba0f6a7be5e4a9105e6748684618d5a4aad07818f681b7f1e9e74836113177e02194f042f5ccd32b45b1add8e048a4c761bacbab4923de52b9a0fd825"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "aa369b0cd5d1cdbeb5ba173226f04ca062e623ddadc9798d5d1f3bad3b65ffcb8362281ddff7c856f2a9cd6b9822acc3"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "96848b3e4af52124abfd59a7a2c665572db88aa81e9f23f19d03039ff0d2f606df71df5b72567af7ced2f4a9f4394b6d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "54e1da17f7d18ea00b2e89c76bc1ecb461638fc663bdb434fd1c38a633472e00"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "a1464f7a1eae780772e5233feb436d87fa8d97e15fd00f00ce6242d737eb03c491e747e7730e7485f96fadfeaeedb0d877e5bc821b976339a28cfc02435641da"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        },
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j.jaxb-impl/FastInfoset"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-fi/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-fi/FastInfoset"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.jvnet.staxex",
+      "name" : "stax-ex",
+      "version" : "2.1.0",
+      "description" : "Extensions to JSR-173 StAX API.",
+      "scope" : "optional",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "700a50c797db31429bf0c57b5adb8b55"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "33160568d70c01da407f8ba982bacf283d00ad4a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9f786ab52392106a53491bd1ddd8bd9028c95bb280e30387b70d498a8647cf35"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3e86d83c63f746c8407c1aed7a1ad4f3b424094e1c7f858c8f19ca2903cf382310bf5f0645d3302c4b32bdde15ae4406305a2618697f37342a1801a6a0f159bc"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "2b35b5614c4af1ffd60f863f707b9a3d539a65cdf0cf6733c21994108f5d333417c05cc5e535fb8d7915a5d33d485381"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "739a16a8035cbb5f08c6403ae2005b2b3afb423de2ffbf2161008ed3b1ab30ead8d13edd2a9388b4939ef214e78fa03c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a20fff58b842e3dd46588576564da9356591695608b8edd50a402e9e33d35094"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "08e87038a55b575147e2b8622090535354f14e7c5a9e3c31f2c2f436780e54c843ea89777e4b6bc357047c9c501d0863703470fde81be8e70bf5be97f3b0c706"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/stax-ex"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-stax-ex"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "jakarta.activation",
+      "name" : "jakarta.activation-api",
+      "version" : "2.1.4",
+      "description" : "Jakarta Activation API 2.1 Specification",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bc1602eee7bc61a0b86f14bbbb0cc794"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "9e5c2a0d75dde71a0bedc4dbdbe47b78a5dc50f8"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "c9db52100ce6c8aac95cc39075f95720d2e561b11f8051b81c121ad4effd7004"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "cd078772acb5ebf1f90f7c737f372b7e86a5ce31b995ed759526a9eee73fd89f97e506f9a208ba3b73e757cb78830b829733411cf7989680aea2272abba7323b"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "0b9a413939a024f562c15e60b11f85c336620987441fb053645499704960464d01ae83e9989b43ae6cd4f2164eb0cebe"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d2fa51a3e18ced20f097ae019982cbd945942103df59327f319c64eeef1c109d6262d1de332fa2b6dfde41c98a9e7b2c"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "b259d17f48ae1f357a28b9c33b66fbcae50eaa86d61ac3c8cbc5184e7914d2d5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "aae6a55fe1fa397b13b1bcb5a05ccc3e4e87049865233482dc09a8ab2af3eb128646394e3ef529609031e7c6c2215c91ffd27de06cd97ca9ae7e07bd4b9595bd"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/jakartaee/jaf-api/issues/"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jakarta.ee-community/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/jakartaee/jaf-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-runtime",
+      "version" : "4.0.6",
+      "description" : "JAXB (JSR 222) Reference Implementation",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0e600d639f3a09ddd6fa91623a12b634"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fb95ebb62564657b2fedfe165b859789ef3a8711"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "1c0d57f8c25f9605d5a2f7ad0a87581893776ac85b00b101b2651258edaa9118"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e19db2669e916992ea6acc75174070a4b5f04bb7788df03b1ede3340f5d63cf1c5055568ba1d7738e9e018716d10c3f6b26d1951faf8bba75f6ebb6ac6b16314"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a3f7264bbb6ea1722d21d12efc651c183b30498542258cf0ea096ce5c7eb17440fe5d3650afc8e976b55c3a3d0952d24"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "b6686499e954ca7caca8c1dabdffc33c3741b012f4a73b729899ffff67f4cddd5c22e7bcce87bf5337933626a4bda798"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "068377faca7e7c02a5687b7920f0661026dcd51c8b58faaf4de13db1673978be"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "f3f9a6944a1b547adbcd621fce28aa9ca07d9992e2ce224e4b4b06195205566737676981d9066ad205f8c008a5e8696d4f4895e9725a94c11bc022c525818d8b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-runtime-parent/jaxb-runtime"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "jaxb-core",
+      "version" : "4.0.6",
+      "description" : "JAXB Core module. Contains sources required by XJC, JXC and Runtime modules.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "e36c915cf47342b4fe31ffba3407b928"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "8e61282303777fc98a00cc3affd0560d68748a75"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ebbd274207b4860d0dc6e2d44d6dbdb5945cede01222d2e50661d45f5d46c0f7"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "f6ed3cc73361794a8e35fc04f09212aa21af9575f36f6440bf33a6d43708ded6142a9be51d9d08d6e5debc262d87c158f0e199ed041a78fb1e0086fd02868a28"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "767a28dc25cc9a728576a9a3e6081e24c9018ee664c04782592e14546087e8cadacbc13cdf0b2eff88840b8be10958ca"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2033beeccf8d5ae1775ffffe41e09a662e03a67d70fdded7fdabaf5f7b14d51de1f17a9a9b65ea96d3178c9a4b0c574d"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "5e456fe8925894b58ef10e9936ddd41cde7bd3476bfb5b0d76aba046ca1c9e5f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "51d4c57f3e1cd5440d3714cb8fe147c74aa40773c5b2a8a804496d361037e6d8dfa86f02f19f4dbbbc327b2fdac30ec83fe82bf720a9db0f8516cb800a7ec62b"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-core"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "org.glassfish.jaxb",
+      "name" : "txw2",
+      "version" : "4.0.6",
+      "description" : "TXW is a library that allows you to write XML documents.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "0bf7070aee3bb53640d2ea6441e059fb"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "4f4cd53b5ff9a2c5aa1211f15ed2569c57dfb044"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fcc749785412ef3806fde1ce70f93ef5a0065dcc47fe449bc871db0795cb11af"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "47eb0e4b199bb12804da94cf8a81a1e652e8ca31af68b65d52f1a0cda6e1c9b41276e4bc1e4ea510f83ecccff9978ff8bd05a56c5b16a4181d8e0673d608b2c4"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a28256c538462ea28a37dc01b60cf6d4dcba6d54146bdc762fbf4a0426bbbd3555c20d3164508dc8860ad7e652f80cc1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d220fc81c28a004c31e4469e27cb0d5d9b0e358bcbd3c0989e4b0065e7c081464c7091b8553c98cc060934305d468aa5"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "de4b8f8a5fe13b14d7ac56a8e1ae705f2160a6e873a997b72827ba5f124f7907"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "ea807533e719e593d7c3e12bc5eba7c84cebf01c398c1ff92122578a04849cc64b7ce300142261475e8d8a35cfaeb53faddd68b905c0309a21d5f27479b98ed3"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://eclipse-ee4j.github.io/jaxb-ri/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://accounts.eclipse.org/mailing-list/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-ri.git/jaxb-txw-parent/txw2"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar"
+    },
+    {
+      "publisher" : "Eclipse Foundation",
+      "group" : "com.sun.istack",
+      "name" : "istack-commons-runtime",
+      "version" : "4.1.2",
+      "description" : "istack common utility code",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "535154ef647af2a52478c4debec93659"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "18ec117c85f3ba0ac65409136afa8e42bc74e739"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "7fd6792361f4dd00f8c56af4a20cecc0066deea4a8f3dec38348af23fc2296ee"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "c3b191409b9ace8cccca6be103b684a25f10675977d38f608036ffb687651a74fd4581a66e1c38e588e77165d32614e4b547bff412379f7a84b926ccb93515bb"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9b8e20b08b109c485c654359ede00fcef74d85ac18f9c7978acd47bf630838d21ea193f79d144e66cf0f6992efd82ff8"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "81c4cf19a5d0f078263cc8f9320d4208da28e25b93c1f45885e237148a3a7c7266ba7586a1eb5cd3efc86be6f90082bc"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "218aa7dd7bca7cfdbee752bb1c2737a7066b47058a42b4ee466a14350bcd2741"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "74770476681a130a3057fdfa2df3977b8aa9bbf1a520d9481694d0e9e0635c2e88d74ff73bbb870de34d93d0a4b6eae7f030e4ba12fbcc51debde58897fdcb6c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://projects.eclipse.org/projects/ee4j/istack-commons/istack-commons-runtime"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://jakarta.oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://dev.eclipse.org/mhonarc/lists/jaxb-impl-dev"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/eclipse-ee4j/jaxb-istack-commons/istack-commons-runtime"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-impl@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar",
+        "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar",
+        "pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar",
+        "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.bind/jaxb-core@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+        "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.xml.fastinfoset/FastInfoset@2.1.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.jvnet.staxex/stax-ex@2.1.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-runtime@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/jaxb-core@4.0.6?type=jar",
+      "dependsOn" : [
+        "pkg:maven/jakarta.xml.bind/jakarta.xml.bind-api@4.0.4?type=jar",
+        "pkg:maven/jakarta.activation/jakarta.activation-api@2.1.4?type=jar",
+        "pkg:maven/org.eclipse.angus/angus-activation@2.0.3?type=jar",
+        "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+        "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.glassfish.jaxb/txw2@4.0.6?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.istack/istack-commons-runtime@4.1.2?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

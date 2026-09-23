@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Fri Oct 17 14:25:32 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 netty-transport-native-unix-common-4.1.116.Final-sources.jar>central=
 netty-transport-native-unix-common-4.1.116.Final.jar>central=
+netty-transport-native-unix-common-4.1.116.Final.jar>mirror1=
 netty-transport-native-unix-common-4.1.116.Final.pom>central=
+netty-transport-native-unix-common-4.1.116.Final.pom>mirror1=

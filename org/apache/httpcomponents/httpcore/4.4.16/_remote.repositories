@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:59:06 CST 2026
+httpcore-4.4.16-sources.jar>central=
+httpcore-4.4.16.jar>central=
+httpcore-4.4.16.jar>mirror1=
+httpcore-4.4.16.pom>central=
+httpcore-4.4.16.pom>mirror1=

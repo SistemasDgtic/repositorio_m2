@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:29 CST 2025
+#Mon Mar 23 12:58:20 CST 2026
 ucp-19.3.0.0-sources.jar>central=
 ucp-19.3.0.0.jar>central=
+ucp-19.3.0.0.jar>mirror1=
 ucp-19.3.0.0.pom>central=
+ucp-19.3.0.0.pom>mirror1=

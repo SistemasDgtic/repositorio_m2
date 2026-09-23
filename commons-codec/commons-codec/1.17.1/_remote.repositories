@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:38 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 commons-codec-1.17.1-sources.jar>central=
 commons-codec-1.17.1.jar>central=
+commons-codec-1.17.1.jar>mirror1=
 commons-codec-1.17.1.pom>central=
+commons-codec-1.17.1.pom>mirror1=

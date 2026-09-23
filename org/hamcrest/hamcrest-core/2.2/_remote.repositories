@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:31 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 hamcrest-core-2.2-sources.jar>central=
 hamcrest-core-2.2.jar>central=
+hamcrest-core-2.2.jar>mirror1=
 hamcrest-core-2.2.pom>central=
+hamcrest-core-2.2.pom>mirror1=

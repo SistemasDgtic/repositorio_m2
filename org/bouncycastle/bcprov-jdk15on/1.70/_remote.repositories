@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 21 15:59:46 CDT 2026
+bcprov-jdk15on-1.70.jar>=
+bcprov-jdk15on-1.70.pom>central=
+bcprov-jdk15on-1.70.pom>mirror1=

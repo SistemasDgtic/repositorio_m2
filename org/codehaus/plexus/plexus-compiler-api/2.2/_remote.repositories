@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Apr 23 19:26:02 CDT 2018
+#Thu Jul 09 19:17:07 CDT 2026
 plexus-compiler-api-2.2.jar>central=
 plexus-compiler-api-2.2.pom>central=
+plexus-compiler-api-2.2.jar>mirror1=
+plexus-compiler-api-2.2.pom>mirror1=

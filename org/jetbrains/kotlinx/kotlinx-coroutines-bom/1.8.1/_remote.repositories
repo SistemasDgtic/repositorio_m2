@@ -1,3 +1,4 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:56:59 CST 2025
+#Mon Mar 23 12:51:32 CST 2026
 kotlinx-coroutines-bom-1.8.1.pom>central=
+kotlinx-coroutines-bom-1.8.1.pom>mirror1=

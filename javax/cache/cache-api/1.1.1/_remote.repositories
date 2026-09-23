@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:40 CST 2025
+#Mon Mar 23 12:59:12 CST 2026
 cache-api-1.1.1-sources.jar>central=
 cache-api-1.1.1.jar>central=
+cache-api-1.1.1.jar>mirror1=
 cache-api-1.1.1.pom>central=
+cache-api-1.1.1.pom>mirror1=

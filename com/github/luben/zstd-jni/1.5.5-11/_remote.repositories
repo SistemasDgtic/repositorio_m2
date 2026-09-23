@@ -1,4 +1,6 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:29 CST 2025
+#Mon Mar 23 12:59:25 CST 2026
 zstd-jni-1.5.5-11.jar>central=
+zstd-jni-1.5.5-11.jar>mirror1=
 zstd-jni-1.5.5-11.pom>central=
+zstd-jni-1.5.5-11.pom>mirror1=

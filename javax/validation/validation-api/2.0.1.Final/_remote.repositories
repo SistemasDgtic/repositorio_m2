@@ -1,0 +1,6 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Apr 20 20:01:16 CDT 2026
+validation-api-2.0.1.Final.jar>mirror1=
+validation-api-2.0.1.Final.pom>mirror1=
+validation-api-2.0.1.Final.jar>central=
+validation-api-2.0.1.Final.pom>central=

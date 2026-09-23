@@ -1,7 +1,7 @@
-#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
-#Mon Oct 17 14:09:24 CDT 2022
-http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1666033763583
-https\://repo.maven.apache.org/maven2/.lastUpdated=1666033764231
-http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1666033763329
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:58:41 CST 2026
 http\://repository.springsource.com/maven/bundles/external/.error=
+http\://repository.springsource.com/maven/bundles/external/.lastUpdated=1666033763583
 http\://repository.springsource.com/maven/bundles/release/.error=
+http\://repository.springsource.com/maven/bundles/release/.lastUpdated=1666033763329
+https\://repo.maven.apache.org/maven2/.lastUpdated=1774292321216

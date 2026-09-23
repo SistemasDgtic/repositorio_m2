@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:51:51 CST 2026
+httpclient-4.5.13-sources.jar>central=
+httpclient-4.5.13.jar>central=
+httpclient-4.5.13.jar>mirror1=
+httpclient-4.5.13.pom>central=
+httpclient-4.5.13.pom>mirror1=

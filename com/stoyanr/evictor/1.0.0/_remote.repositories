@@ -1,0 +1,7 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:59:06 CST 2026
+evictor-1.0.0-sources.jar>central=
+evictor-1.0.0.jar>central=
+evictor-1.0.0.jar>mirror1=
+evictor-1.0.0.pom>central=
+evictor-1.0.0.pom>mirror1=

@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:52 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 mimepull-1.9.10-sources.jar>central=
 mimepull-1.9.10.jar>central=
+mimepull-1.9.10.jar>mirror1=
 mimepull-1.9.10.pom>central=
+mimepull-1.9.10.pom>mirror1=

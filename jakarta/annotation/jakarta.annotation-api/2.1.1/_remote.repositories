@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:57:54 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 jakarta.annotation-api-2.1.1-sources.jar>central=
 jakarta.annotation-api-2.1.1.jar>central=
+jakarta.annotation-api-2.1.1.jar>mirror1=
 jakarta.annotation-api-2.1.1.pom>central=
+jakarta.annotation-api-2.1.1.pom>mirror1=

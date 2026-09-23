@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Mar 23 12:51:30 CST 2026
+kubernetes-client-bom-6.13.5.pom>central=
+kubernetes-client-bom-6.13.5.pom>mirror1=

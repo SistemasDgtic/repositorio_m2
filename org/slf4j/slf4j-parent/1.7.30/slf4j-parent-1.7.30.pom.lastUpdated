@@ -1,0 +1,5 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Tue Apr 14 15:29:12 CDT 2026
+https\://maven.oracle.com/.error=Could not transfer artifact org.slf4j\:slf4j-parent\:pom\:1.7.30 from/to maven.oracle.com (https\://maven.oracle.com)\: Authorization failed for https\://maven.oracle.com/org/slf4j/slf4j-parent/1.7.30/slf4j-parent-1.7.30.pom 403 Forbidden
+65fca6069a8ae6718468768230ff2fe7683ba91f@default-maven.oracle.com-https\://maven.oracle.com/.lastUpdated=1776198552232
+https\://repo.maven.apache.org/maven2/.lastUpdated=1776198552313

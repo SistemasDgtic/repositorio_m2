@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:51 CST 2025
+#Mon Mar 23 12:59:06 CST 2026
 policy-2.7.5-sources.jar>central=
 policy-2.7.5.jar>central=
+policy-2.7.5.jar>mirror1=
 policy-2.7.5.pom>central=
+policy-2.7.5.pom>mirror1=

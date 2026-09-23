@@ -1,5 +1,7 @@
 #NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
-#Mon Jun 23 17:58:03 CST 2025
+#Mon Mar 23 12:58:11 CST 2026
 freemarker-2.3.33-sources.jar>central=
 freemarker-2.3.33.jar>central=
+freemarker-2.3.33.jar>mirror1=
 freemarker-2.3.33.pom>central=
+freemarker-2.3.33.pom>mirror1=
